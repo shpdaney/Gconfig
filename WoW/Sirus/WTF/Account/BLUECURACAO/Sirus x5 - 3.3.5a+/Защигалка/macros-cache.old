@@ -1,0 +1,111 @@
+MACRO 16777217 "." INV_Misc_QuestionMark
+#showtooltip
+/petstay
+/use [ button: 1] Магический доспех
+/use [ button: 2] Ледяной доспех
+/use [ button: 3] Раскаленный доспех
+END
+MACRO 16777220 "." INV_Misc_QuestionMark
+#showtooltip
+/use [ button: 1] Сапфир маны
+/use Камень здоровья из Скверны
+/use [ button: 2] Сотворение самоцвета маны
+END
+MACRO 16777222 "." INV_Misc_QuestionMark
+#showtooltip 
+/stopcasting 
+/cast [mod: alt] Защита от огня
+/cancelaura [mod: alt] Щит маны
+/cast [mod: shift, @focus][@mouseover, harm][nomod] Антимагия
+END
+MACRO 16777225 "." INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cancelaura Ледяная глыба
+/use [mod: shift] Камень здоровья из Скверны
+/use [mod: shift] 13
+/castsequence [spec:2, nomod] reset=180/alt  Ледяная глыба, Холодная хватка
+/cast [nospec:2, nomod] Ледяная глыба
+END
+MACRO 16777228 "." INV_Misc_QuestionMark
+#showtooltip Огненный взрыв
+/petattack
+/use [spec:1, mod: alt][spec:2, nomod] Ледяное копье
+/use [spec:2, mod: alt][spec:1, nomod] 10
+/use [spec:2, mod: alt][spec:1, nomod] Огненный взрыв
+END
+MACRO 16777229 "." INV_Misc_QuestionMark
+#showtooltip
+/petfollow
+/stopcasting
+/cast [mod: alt] Защита от магии льда
+/cancelaura [mod: alt] Щит маны
+/cast [mod: shift, @focus][@mouseover, harm][] Превращение
+/к Шерсть
+END
+MACRO 16777231 "." INV_Misc_QuestionMark
+#showtooltip Ледяная стрела
+/cast [mod: shift] Ледяная стрела(Уровень 1)
+/cast [mod: alt] !Выстрел
+/cast [nomod] Ледяная стрела(Уровень 16)
+END
+MACRO 16777232 "." INV_Misc_QuestionMark
+#showtooltip
+/petattack
+/cast [mod: shift] Стылая кровь
+/cast [mod: shift] Зеркальное изображение
+/cast [nomod, pet] !Холод
+/cast [nomod, nopet] Призыв элементаля воды
+/cast [mod: alt, @pet] Замедленное падение
+END
+MACRO 16777233 "." INV_Misc_QuestionMark
+#showtooltip 
+/cancelaura Щит маны
+/use [mod: shift] Защита от магии льда
+/castsequence reset=22 Ледяная преграда, Щит маны
+END
+MACRO 16777234 "." INV_Misc_QuestionMark
+#showtooltip 
+/cast [mod: alt] Зеркальное изображение
+/use [mod: shift, @player] Замедленное падение
+/закл [nomod] Скачок
+END
+MACRO 16777240 "." INV_Misc_QuestionMark
+#showtooltip
+/use [ button: 1] Ослабление магии(Уровень 7)
+/use [ button: 2] Усиление магии(Уровень 7)
+/use [ button: 3] 
+END
+MACRO 16777241 "." INV_Misc_QuestionMark
+#showtooltip
+/закл [nomod] Кольцо льда
+/use [mod: shift] Чародейский взрыв
+/закл [mod: alt] !Снежная буря(Уровень 9)
+END
+MACRO 16777242 "." INV_Misc_QuestionMark
+#showtooltip
+/закл [nomod] Конус холода
+/use [mod: shift] 13
+/закл [mod: alt] !Огненный столб
+END
+MACRO 16777243 "." INV_Misc_QuestionMark
+#showtooltip Глубокая заморозка
+/stopcasting
+/cast [mod: shift, @focus][@mouseover, harm][] Глубокая заморозка
+/use [mod: shift, @focus][@mouseover, harm][] 10
+END
+MACRO 16777244 "." INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast [mod: shift, @focus] [@mouseover, harm][] Чарокрад
+END
+MACRO 16777246 "м" INV_Misc_QuestionMark
+#showtooltip Возгорание
+/cast [mod: shift] Возгорание
+/cast [mod: alt] !Выстрел
+/cast Огненная глыба
+END
+MACRO 16777245 "м" Ability_Mage_LivingBomb
+#showtooltip
+/cast [mod: shift, @focus] [@mouseover, harm][] Живая бомба
+END

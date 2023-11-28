@@ -1,0 +1,14 @@
+
+PB_DB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Bloodstorm - Blackrock [PvP only]"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

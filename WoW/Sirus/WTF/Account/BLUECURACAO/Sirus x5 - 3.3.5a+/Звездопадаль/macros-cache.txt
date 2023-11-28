@@ -1,0 +1,11 @@
+MACRO 16777218 "." INV_Misc_QuestionMark
+#showtooltip Звездопад(Уровень 4)
+/cast [mod: shift] Ледяная стрела(Уровень 1)
+/cast [mod: alt] !Выстрел
+/cast [nomod] Эгида магии(Расовая PvP)
+/cast [nomod] Звездопад(Уровень 4)
+END
+MACRO 16777217 "." INV_Misc_QuestionMark
+#showtooltip
+/castsequence Поиск минералов, Поиск трав
+END

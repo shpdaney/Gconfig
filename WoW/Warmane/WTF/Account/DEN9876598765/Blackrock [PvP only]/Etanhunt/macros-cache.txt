@@ -1,0 +1,17 @@
+MACRO 16777217 "." INV_Misc_QuestionMark
+/castsequence !Aspect of the Hawk, Aspect of the Cheetah
+END
+MACRO 16777218 "eat" INV_Misc_QuestionMark
+/use Moist Cornbread
+/use Melon Juice
+END
+MACRO 16777219 "pet" INV_Misc_QuestionMark
+/petattack
+/cast [pet] Ravage(Rank 2)
+/use [nopet] Call Pet
+END
+MACRO 16777220 "pet" INV_Misc_QuestionMark
+/use [nopet] Call Pet
+/use [@pet, dead] Revive Pet
+/use [@pet, nodead] Mend Pet(Rank 1)
+END

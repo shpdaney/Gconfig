@@ -1,0 +1,142 @@
+MACRO 65 "#0mArenaSaerch" Ability_Hunter_MarkedForDeath
+/targetenemyplayer [@arena2, noexists]
+/stopmacro [@arena2, noexists]
+/click [@focus, noexists] BT4Button98; click [@target, noexists] BT4Button99; click [] BT4Button100
+END
+MACRO 67 "#1mFocus" Ability_Hunter_MasterMarksman
+/focus [@target]
+/target [@arena1]
+/target [@arena2]
+/target [@focus]
+/targetlasttarget
+/focus [@target]
+/targetlasttarget
+END
+MACRO 68 "#2mTarget" Ability_Hunter_SniperShot
+/target [@focus]
+/target [@arena1]
+/target [@arena2]
+/target [@focus]
+/targetlasttarget
+END
+MACRO 66 "#3mSwitchTF" Ability_Creature_Cursed_04
+/target [@focus]
+/targetlasttarget
+/focus
+/targetlasttarget
+END
+MACRO 46 "#Gladius" Ability_Racial_TwoForms
+/gladius test3
+END
+MACRO 43 "#LFArenf" Spell_Holy_BlessingOfStrength
+/.1 {треугольник} Лок лф 2с Шаму 2.2+
+/6 {треугольник}Рог 232 лф 2с с 1.5к
+END
+MACRO 35 "#LFreid" Ability_TownWatch
+/р2 {треугольник} Кара об ТокенРан + Мароуз (Иллюзии Анролл) нид ВСЕ {Крест} Токены ролл
+/5 {треугольник} Яма Гер Регайте
+END
+MACRO 78 "#RC" Ability_Fixated_State_Purple
+/ор https://discord.gg/JEJbgtpd
+/гр https://discord.gg/JEJbgtpd
+END
+MACRO 48 "#rel" Ability_Creature_Cursed_04
+/reload
+END
+MACRO 45 "#SUF" Spell_ChargePositive
+/suf
+END
+MACRO 57 "#TPTP" Ability_Monk_ZenFlight
+/tptp
+END
+MACRO 82 "#WA" ability_bossfelorcs_necromancer_red
+/wa
+END
+MACRO 81 "#Готовность" Ability_Warrior_Revenge
+/readycheck
+/run nfb="[Еда!]: ";for i=1,GetNumRaidMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua=="Well Fed"or ua=="Food"then break;elseif b==40 and ua~="Well Fed"then nfb=nfb..UnitName('raid'..i).." ";end;end;end;SendChatMessage(nfb,"raid");
+END
+MACRO 54 "#Пул" Ability_Warrior_BloodFrenzy
+/dbm pull 7
+END
+MACRO 62 "." INV_Misc_QuestionMark
+#showtooltip Огненный взрыв
+/petattack
+/use [spec:1, mod: shift][spec:2, nomod] Ледяное копье
+/use [spec:2, mod: shift][spec:1, nomod] 10
+/use [spec:2, mod: shift][spec:1, nomod] Огненный взрыв
+END
+MACRO 36 "." INV_Misc_QuestionMark
+#showtooltip Чародейская гениальность
+/use [button: 1] Чародейский интеллект
+/targetlasttarget [button: 1, help]
+/use [button: 2, help, exists, @target][button: 2, @party1] Магическая концентрация
+/use [button: 3] Чародейская гениальность
+END
+MACRO 2 "." INV_Misc_QuestionMark
+#showtooltip
+/use [button: 1] Сотворенный штрудель из маны
+/cast [button: 2] Сотворение яств
+/cast [button: 3] Обряд сотворения яств(Уровень 2)
+END
+MACRO 75 "PetAttack" ABILITY_HUNTER_SICKEM
+/petattack [@mouseover, harm][]
+END
+MACRO 76 "PetFollow" Ability_Hunter_Pet_Assist
+/petpassive
+/petfollow
+/use Простая невидимость
+/закл Портативная Лунная ракета
+END
+MACRO 77 "PetStay" Ability_Hunter_SeparationAnxiety
+/petpassive
+/petstay
+END
+MACRO 72 "PvP||PvE" INV_Misc_QuestionMark
+#show 1
+/equipset [spec:1, btn:1]1; [btn:1]2; [btn:3]bg
+/usetalents [spec:1,  btn:2] 2; [btn:2] 1
+END
+MACRO 84 "roll" Ability_Crown_of_the_Heavens_Icon
+/roll
+END
+MACRO 74 "SoloQ" Ability_Warrior_Challange
+/1 ____________________________________{Крест}{Круг}{Звезда}РеГ/SoLoQ{треугольник}{Квадрат}{Ромб}_____.
+END
+MACRO 64 "Аркан" INV_Misc_QuestionMark
+#showtooltip Чародейская вспышка
+/cast [mod: shift] Величие разума
+/cast [mod: alt] !Выстрел
+/use [nomod] 10
+/use Чародейская вспышка
+END
+MACRO 90 "Бинт" INV_Misc_QuestionMark
+#showtooltip
+/use [@player] Бинты из ледяной ткани Пустоты
+END
+MACRO 88 "Маг" Spell_Arcane_Arcane02
+/equip Гримуар неумолимого гладиатора
+END
+MACRO 89 "Пал" Spell_Holy_DivineIntervention
+/equip Полевой мешочек тауматурга
+END
+MACRO 71 "Продам" Spell_Holy_WeaponMastery
+/run MyItem1= select(2, GetItemInfo("Красивое черное платье"));
+/run SendChatMessage("Продам "..MyItem1.." ","channel",nil,1)
+END
+MACRO 55 "СС" Spell_Shadow_SoulGem
+/use Демонический камень души
+/закл Создание камня души(Уровень 7)
+END
+MACRO 60 "Торг" Spell_Paladin_Inquisition
+/script SendChatMessage("TEXT1".. select(2,GetItemInfo(ID)).."TEXT2","channel",nil,4)
+TEXT
+ID
+N 
+END
+MACRO 93 "тест" INV_Misc_QuestionMark
+/click [mod] PetActionButton1; [nomod] PetActionButton2
+END
+MACRO 80 "фокус" Ability_Hunter_MarkedForDeath
+/фокус
+END

@@ -1,0 +1,21 @@
+## Interface: 30200
+## Title: Gladiminish
+## Notes: Extends Gladius with diminishing return tracking
+## Notes-zhCN: 扩展 Gladius 递减返回追踪
+## Version: r8
+## Author: ananhaid
+## RequiredDeps: Gladius
+## SavedVariables: GladiminishDB
+## X-Curse-Packaged-Version: r8
+## X-Curse-Project-Name: Gladiminish
+## X-Curse-Project-ID: gladiminish
+## X-Curse-Repository-ID: wow/gladiminish/mainline
+
+embeds.xml
+
+localization.deDE.lua
+localization.enUS.lua
+localization.zhCN.lua
+
+Gladiminish.lua
+config.lua

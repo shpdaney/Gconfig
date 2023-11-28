@@ -1,0 +1,22 @@
+
+GladiusDB = {
+	["profileKeys"] = {
+		["Bloodstorm - Blackrock [PvP only]"] = "Bloodstorm - Blackrock [PvP only]",
+	},
+	["profiles"] = {
+		["Bloodstorm - Blackrock [PvP only]"] = {
+			["barHeight"] = 20,
+			["castBar"] = false,
+			["locked"] = true,
+			["trinketDisplay"] = "bigIcon",
+			["y"] = 245.3446427154222,
+			["x"] = 872.0173594038251,
+			["barWidth"] = 170,
+			["padding"] = 0,
+			["manaMax"] = false,
+			["healthPercentage"] = false,
+			["growUp"] = true,
+			["healthActual"] = true,
+		},
+	},
+}

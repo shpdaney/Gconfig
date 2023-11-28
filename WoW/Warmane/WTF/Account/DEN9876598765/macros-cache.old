@@ -1,0 +1,30 @@
+MACRO 5 "." INV_Misc_QuestionMark
+#showtooltip
+/use [nomod, @mouseover][mod: shift, @focus][] Polymorph
+END
+MACRO 3 "." INV_Misc_QuestionMark
+#showtooltip
+/use [btn:1] Mana Emerald
+/use [btn:2] Conjure Mana Gem
+/use [btn:3] 
+END
+MACRO 4 "." INV_Misc_QuestionMark
+#showtooltip
+/use [btn:1] Conjured Mana Pie
+/use [btn:2] Conjure Refreshment
+/use [btn:3] 
+END
+MACRO 6 "." INV_Misc_QuestionMark
+#showtooltip 
+/use [nofly] Blue Wind Rider
+/use [fly] Ochre Skeletal Warhorse
+END
+MACRO 1 "." INV_Misc_QuestionMark
+#showtooltip
+/use [btn:1] Mage Armor
+/use [btn:2] Ice Armor
+/use [btn:3] Molten Armor
+END
+MACRO 2 "gg" Ability_BackStab
+/5 Need 1 healer 70 lvl+ dungeon team
+END

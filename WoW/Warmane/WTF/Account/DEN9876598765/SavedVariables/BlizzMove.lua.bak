@@ -1,0 +1,66 @@
+
+BlizzMoveDB = {
+	["QuestLogFrame"] = {
+	},
+	["AuctionFrame"] = {
+		["save"] = true,
+	},
+	["LFRParentFrame"] = {
+	},
+	["GameMenuFrame"] = {
+	},
+	["CharacterFrame"] = {
+	},
+	["MailFrame"] = {
+	},
+	["MacroFrame"] = {
+	},
+	["FriendsFrame"] = {
+	},
+	["AchievementFrame"] = {
+		["save"] = true,
+	},
+	["MerchantFrame"] = {
+	},
+	["GossipFrame"] = {
+	},
+	["DressUpFrame"] = {
+	},
+	["LFDParentFrame"] = {
+	},
+	["LootFrame"] = {
+	},
+	["InterfaceOptionsFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "CENTER",
+			["relativePoint"] = "CENTER",
+			["yOfs"] = 0,
+			["xOfs"] = 0,
+		},
+		["relativePoint"] = "LEFT",
+		["yOfs"] = -71.1111743313147,
+		["xOfs"] = 199.06170792617,
+		["point"] = "LEFT",
+	},
+	["GuildBankFrame"] = {
+		["save"] = true,
+	},
+	["SpellBookFrame"] = {
+	},
+	["VideoOptionsFrame"] = {
+	},
+	["BankFrame"] = {
+	},
+	["HelpFrame"] = {
+	},
+	["QuestFrame"] = {
+	},
+	["TradeFrame"] = {
+	},
+	["CalendarFrame"] = {
+		["save"] = true,
+	},
+	["PVPParentFrame"] = {
+	},
+}

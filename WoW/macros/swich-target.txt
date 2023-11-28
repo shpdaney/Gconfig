@@ -1,0 +1,41 @@
+Команда чтоб узнать id кнопки
+/fstack
+
+Первый макрос
+
+#0mArenaSaerch
+
+/targetenemyplayer [@arena2, noexists]
+/stopmacro [@arena2, noexists]
+/click [@focus, noexists] BT4Button98; click [@target, noexists] BT4Button99; click [] BT4Button100
+
+Второй макрос
+
+#1mFocus
+
+/focus [@target]
+/target [@arena1]
+/target [@arena2]
+/target [@focus]
+/targetlasttarget
+/focus [@target]
+/targetlasttarget
+
+Третий макрос
+
+#2mTarget
+
+/target [@focus]
+/target [@arena1]
+/target [@arena2]
+/target [@focus]
+/targetlasttarget
+
+Четвертый макрос
+
+#3mSwitchTF
+
+/target [@focus]
+/targetlasttarget
+/focus
+/targetlasttarget

@@ -1,0 +1,3 @@
+MACRO 16777217 "Taunt" INV_Misc_QuestionMark
+/castsequence reset=6 Длань возмездия, Праведная защита
+END

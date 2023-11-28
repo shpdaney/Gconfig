@@ -1,0 +1,356 @@
+
+WeakAurasSaved = {
+	["displays"] = {
+	},
+	["registered"] = {
+	},
+	["talent_cache"] = {
+		["HUNTER"] = {
+		},
+		["WARRIOR"] = {
+		},
+		["SHAMAN"] = {
+		},
+		["MAGE"] = {
+		},
+		["PRIEST"] = {
+		},
+		["WARLOCK"] = {
+			[2.2] = {
+				["name"] = "Демоническое знание",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImprovedVampiricEmbrace",
+			},
+			[2.16] = {
+				["name"] = "Мастер-демонолог",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowPact",
+			},
+			[1.04] = {
+				["name"] = "Гнетущее проклятие слабости",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CurseOfMannoroth",
+			},
+			[3.06] = {
+				["name"] = "Демоническая сила",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FireBolt",
+			},
+			[2.14] = {
+				["name"] = "Манакорм",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ManaFeed",
+			},
+			[1.25] = {
+				["name"] = "Нестабильное колдовство",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnstableAffliction_3",
+			},
+			[3.23] = {
+				["name"] = "Неистовство Тьмы",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Shadowfury",
+			},
+			[2.12] = {
+				["name"] = "Нечистая сила",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
+			},
+			[2.08] = {
+				["name"] = "Всевластный суккуб",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonSuccubus",
+			},
+			[1.23] = {
+				["name"] = "Злое слово",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CurseOfAchimonde",
+			},
+			[2.06] = {
+				["name"] = "Демоническая жестокость",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
+			},
+			[1.21] = {
+				["name"] = "Темный союз",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
+			},
+			[3.15] = {
+				["name"] = "Защита Пустоты",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_NetherProtection",
+			},
+			[3.07] = {
+				["name"] = "Ожог Тьмы",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ScourgeBuild",
+			},
+			[2.27] = {
+				["name"] = "Метаморфоза",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonForm",
+			},
+			[1.19] = {
+				["name"] = "Изничтожение",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_Eradication",
+			},
+			[3.03] = {
+				["name"] = "Огненный шлейф",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fire",
+			},
+			[3.2] = {
+				["name"] = "Тень и Пламя",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowandFlame",
+			},
+			[2.25] = {
+				["name"] = "Мщение",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicEmpathy",
+			},
+			[1.09] = {
+				["name"] = "Сосредоточение Скверны",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_FingerOfDeath",
+			},
+			[3.24] = {
+				["name"] = "Могущественный бес",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_EmpoweredImp",
+			},
+			[3.16] = {
+				["name"] = "Бушующее пламя",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
+			},
+			[2.23] = {
+				["name"] = "Полная власть над демонами",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_ImprovedDemonicTactics",
+			},
+			[1.11] = {
+				["name"] = "Предел мрака",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CallofBone",
+			},
+			[1.07] = {
+				["name"] = "Вытягивание души",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_LifeDrain02",
+			},
+			[3.04] = {
+				["name"] = "Огрубевшая кожа",
+				["icon"] = "Interface\\Icons\\Ability_Mage_MoltenArmor",
+			},
+			[2.17] = {
+				["name"] = "Огненные недра",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_MoltenCore",
+			},
+			[1.01] = {
+				["name"] = "Улучшенное проклятие агонии",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CurseOfSargeras",
+			},
+			[3.08] = {
+				["name"] = "Разгром",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			},
+			[2.19] = {
+				["name"] = "Демоническое могущество",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_DemonicEmpowerment",
+			},
+			[2.15] = {
+				["name"] = "Чудо созидания",
+				["icon"] = "Interface\\Icons\\INV_Ammo_FireTar",
+			},
+			[1.26] = {
+				["name"] = "Пандемия",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnstableAffliction_2",
+			},
+			[1.03] = {
+				["name"] = "Усиленная порча",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_AbominationExplosion",
+			},
+			[3.25] = {
+				["name"] = "Огонь и сера",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_FireandBrimstone",
+			},
+			[2.13] = {
+				["name"] = "Мастер призыва",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
+			},
+			[1.28] = {
+				["name"] = "Блуждающий дух",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_Haunt",
+			},
+			[1.24] = {
+				["name"] = "Объятия смерти",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathsEmbrace",
+			},
+			[3.26] = {
+				["name"] = "Стрела Хаоса",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_ChaosBolt",
+			},
+			[2.11] = {
+				["name"] = "Демоническая эгида",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_RagingScream",
+			},
+			[2.07] = {
+				["name"] = "Энергия Скверны",
+				["icon"] = "Interface\\Icons\\Spell_Holy_MagicalSentry",
+			},
+			[1.18] = {
+				["name"] = "Власть над Тенями",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadeTrueSight",
+			},
+			[3.09] = {
+				["name"] = "Напряжение",
+				["icon"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
+			},
+			[1.17] = {
+				["name"] = "Матерый охотник Скверны",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonFelHunter",
+			},
+			[3.21] = {
+				["name"] = "Искусное поглощение души",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_ImprovedSoulLeech",
+			},
+			[3.19] = {
+				["name"] = "Пылающая тьма",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Volcano",
+			},
+			[3.01] = {
+				["name"] = "Обжигающая стрела Тьмы",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
+			},
+			[3.17] = {
+				["name"] = "Поджигание",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			},
+			[2.05] = {
+				["name"] = "Широкий канал здоровья",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
+			},
+			[2.1] = {
+				["name"] = "Господство Скверны",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RemoveCurse",
+			},
+			[1.2] = {
+				["name"] = "Зараза",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PainfulAfflictions",
+			},
+			[1.16] = {
+				["name"] = "Проклятие изнеможения",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
+			},
+			[3.13] = {
+				["name"] = "Жаркий жертвенный огонь",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
+			},
+			[3.12] = {
+				["name"] = "Ответный удар",
+				["icon"] = "Interface\\Icons\\Spell_Fire_PlayingWithFire",
+			},
+			[3.11] = {
+				["name"] = "Непереносимая жгучая боль",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
+			},
+			[3.1] = {
+				["name"] = "Предел разрушения",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
+			},
+			[2.26] = {
+				["name"] = "Демонический союз",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicPact",
+			},
+			[2.21] = {
+				["name"] = "Власть над демонами",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicTactics",
+			},
+			[1.14] = {
+				["name"] = "Объятия Тьмы",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowEmbrace",
+			},
+			[1.1] = {
+				["name"] = "Усиление проклятия",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
+			},
+			[1.05] = {
+				["name"] = "Улучшенное похищение души",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Haunting",
+			},
+			[1.22] = {
+				["name"] = "Пронзительный вой ужаса",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathScream",
+			},
+			[1.15] = {
+				["name"] = "Вытягивание жизни",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
+			},
+			[3.18] = {
+				["name"] = "Поглощение души",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
+			},
+			[2.01] = {
+				["name"] = "Улучшенный камень здоровья",
+				["icon"] = "Interface\\Icons\\INV_Stone_04",
+			},
+			[1.13] = {
+				["name"] = "Усугубленная порча",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_AbominationExplosion",
+			},
+			[2.24] = {
+				["name"] = "Призыв стража Скверны",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonFelGuard",
+			},
+			[1.12] = {
+				["name"] = "Сумерки",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Twilight",
+			},
+			[1.08] = {
+				["name"] = "Леденящий страх",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Possession",
+			},
+			[1.02] = {
+				["name"] = "Подавление",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnsummonBuilding",
+			},
+			[2.09] = {
+				["name"] = "Связка души",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
+			},
+			[2.02] = {
+				["name"] = "Усиленный бес",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonImp",
+			},
+			[3.22] = {
+				["name"] = "Обратный поток",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_Backdraft",
+			},
+			[3.14] = {
+				["name"] = "Опустошение",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameShock",
+			},
+			[2.18] = {
+				["name"] = "Демоническая устойчивость",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicFortitude",
+			},
+			[2.22] = {
+				["name"] = "Истребление",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball02",
+			},
+			[1.06] = {
+				["name"] = "Улучшенный жизнеотвод",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
+			},
+			[2.03] = {
+				["name"] = "Демоническое облачение",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
+			},
+			[2.04] = {
+				["name"] = "Узы Скверны",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_FelMending",
+			},
+			[1.27] = {
+				["name"] = "Беспрерывное колдовство",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_EverlastingAffliction",
+			},
+			[3.02] = {
+				["name"] = "Погибель",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathPact",
+			},
+			[3.05] = {
+				["name"] = "Катаклизм",
+				["icon"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
+			},
+		},
+		["PALADIN"] = {
+		},
+		["DRUID"] = {
+		},
+		["ROGUE"] = {
+		},
+		["DEATHKNIGHT"] = {
+		},
+	},
+	["tempIconCache"] = {
+	},
+	["login_squelch_time"] = 10,
+}

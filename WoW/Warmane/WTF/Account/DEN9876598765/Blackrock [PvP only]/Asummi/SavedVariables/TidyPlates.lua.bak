@@ -1,0 +1,14 @@
+
+TidyPlatesOptions = {
+	["EnableMinimapButton"] = false,
+	["WelcomeShown"] = true,
+	["FriendlyAutomation"] = "No Automation",
+	["EnemyAutomation"] = "No Automation",
+	["primary"] = "Threat Plates",
+	["EnableCastWatcher"] = false,
+	["secondary"] = "Threat Plates",
+}
+TidyPlatesHubTankSavedVariables = {
+}
+TidyPlatesHubDamageSavedVariables = {
+}

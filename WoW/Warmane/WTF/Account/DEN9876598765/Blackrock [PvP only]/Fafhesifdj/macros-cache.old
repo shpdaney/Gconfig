@@ -1,0 +1,3 @@
+MACRO 16777217 "." INV_Misc_QuestionMark
+/castsequence reset=5 Stormstrike, Lava Lash(Rank 1)
+END

@@ -1,0 +1,107 @@
+MACRO 16777242 "." INV_Misc_QuestionMark
+#showtooltip Порча
+/use [nospec:3] 10
+/use [@mouseover, harm] Порча
+/use [spec:3] Порча
+/castsequence reset=5 Поджигание, Ожог Тьмы
+END
+MACRO 16777233 "." INV_Misc_QuestionMark
+#showtooltip
+/castsequence !Доспех Скверны, !Демонический доспех
+/use [@player] Огненный щит
+/use Простая невидимость
+END
+MACRO 16777235 "." INV_Misc_QuestionMark
+#showtooltip [pet:Охотник Скверны]Запрет чар;[pet:Демон Бездны]Жертвоприношение;Господство Скверны
+/use Жертвоприношение
+/use [mod:shift] Господство Скверны
+/castsequence [] reset=9 Призыв охотника Скверны, Связка души
+END
+MACRO 16777236 "." INV_Misc_QuestionMark
+#showtooltip Призыв суккуба
+/dismount
+/use Жертвоприношение
+/use Простая невидимость
+/use [mod: shift] Господство Скверны
+/castsequence [] reset=9 Призыв суккуба, Связка души
+END
+MACRO 16777243 "." INV_Misc_QuestionMark
+#showtooltip Жертвенный огонь
+/use Инфернальное копье
+/use [mod: shift] Порча
+/use [spec:3] 10
+/castsequence [spec:3] reset=4 Нестабильное колдовство, Порча
+/castsequence reset=4 Жертвенный огонь, Порча
+END
+MACRO 16777244 "." INV_Misc_QuestionMark
+#showtooltip
+/cast [mod: shift, @focus, harm][] Проклятие стихий
+/equip Жезл рвения разгневанного гладиатора
+END
+MACRO 16777237 "." INV_Misc_QuestionMark
+#showtooltip [pet:Охотник Скверны]Пожирание магии;Заслон от темной магии
+/petpassive
+/petfollow
+/use [mod: alt, @party1][mod: shift, @target][nomod, @player] Пожирание магии
+/use Поглощение теней
+END
+MACRO 16777232 "." INV_Misc_QuestionMark
+#showtooltip 
+/use [mod: alt, @party1][mod: shift, exists, @target][mod: shift, @player]13
+/use Камень здоровья из Скверны
+/use Создание камня здоровья
+END
+MACRO 16777238 "2" INV_Misc_QuestionMark
+#showtooltip Призыв демона Бездны
+/cancelaura [] Жертвоприношение
+/use [mod: shift] Господство Скверны
+/castsequence [mod: shift] reset=9 Призыв демона Бездны, Связка души
+/use Заслон от темной магии
+/use Жертвоприношение
+END
+MACRO 16777254 "PET" Ability_Hunter_Pet_Wolf
+/dismount
+/petattack [mod:shift, @focus][@mouseover, harm][]
+/use [mod:shift, @focus][@mouseover, harm][]Запрет чар
+/use [mod:shift, @focus][@mouseover, harm][]Соблазн
+/use [mod:shift, @focus][@mouseover, harm][]Изгнание
+END
+MACRO 16777256 "PVE" INV_Misc_QuestionMark
+/castsequence reset=combat/9 Стрела Хаоса,Поджигание,Испепеление,Испепеление,Испепеление,Стрела Хаоса,Стрела Хаоса
+/petattack
+END
+MACRO 16777245 "Бес" Spell_Shadow_SummonImp
+/equipset [spec:3]3;[spec:2]2;1
+/use [button: 3] Связка души
+/use [pet:Бес, @player] Огненный щит
+/use [pet:Бес, @party1] Обнаружение невидимости
+/use [nopet:Бес, button:2] Господство Скверны
+/use [nopet:Бес] Призыв беса
+END
+MACRO 16777229 "Коил" Spell_Shadow_DeathCoil
+#showtooltip Лик смерти
+/stopcasting
+/use 10
+/cast [mod: shift, @focus][@mouseover, harm][] Лик смерти
+END
+MACRO 16777222 "Страх" Spell_Shadow_Possession
+#showtooltip Страх
+/petpassive [nopet:Суккуб]
+/use [mod:shift] Простая невидимость
+/cast [mod:shift, @focus][@mouseover, harm][] Страх
+END
+MACRO 16777239 "Чары" INV_Misc_QuestionMark
+#showtooltip Могучий камень чар
+/use [pet:Бес, @player] Огненный щит
+/use [button: 2] Могучий камень огня; [] Могучий камень чар
+/use 16
+/click StaticPopup1Button1
+/cast [button: 2] Создание камня огня; [] Создание камня чар
+END
+MACRO 16777241 "стан" INV_Misc_QuestionMark
+/stopcasting
+/castsequence [nomod] reset=8 !Неистовство Тьмы, Вой ужаса
+/use [mod] Огненный ливень
+/use [nospec:2, nomod] Вой ужаса
+/use Муки
+END

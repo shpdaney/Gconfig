@@ -1,0 +1,51 @@
+MACRO 16777217 "." INV_Misc_QuestionMark
+#showlooltip 
+/use [mod:shift, pet, @pet] Corpse Explosion
+/use [pet] Death Pact
+/use [nopet] Raise Dead
+END
+MACRO 16777226 "." INV_Misc_QuestionMark
+/cast Scourge Strike
+/cast Claw
+/petautocastoff Gnaw
+END
+MACRO 16777225 "." INV_Misc_QuestionMark
+/use [mod:shift, @focus][@mouseover, harm][] Death Grip
+END
+MACRO 16777222 "." INV_Misc_QuestionMark
+/use [mod:shift, @focus][@mouseover, harm][] Strangulate
+/use Blood Tap
+END
+MACRO 16777223 "." INV_Misc_QuestionMark
+/use [mod:shift, @focus][@mouseover, harm][] Chains of Ice
+END
+MACRO 16777224 "." INV_Misc_QuestionMark
+/use [mod:shift, @focus][@mouseover, harm][]Mind Freeze
+END
+MACRO 16777228 "armor" INV_Misc_QuestionMark
+/castsequence !Unholy Presence, !Frost Presence
+END
+MACRO 16777218 "ASh" INV_Misc_QuestionMark
+#showlooltip Anti-Magic Shell
+/cast Horn of Winter
+/cast Anti-Magic Shell
+END
+MACRO 16777230 "burst" INV_Misc_QuestionMark
+/cast Empower Rune Weapon
+/cast Summon Gargoyle
+/petfollow
+/petattack 
+END
+MACRO 16777229 "maunt" INV_Misc_QuestionMark
+/petpassive
+/petfollow
+/use Acherus Deathcharger
+END
+MACRO 16777221 "PET" INV_Misc_QuestionMark
+#showlooltip Gnaw
+/cast !Leap
+/petautocaston Gnaw
+/petattack 
+/cast [nopet] Raise Dead
+/cast [pet] Bone Shield
+END

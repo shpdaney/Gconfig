@@ -1,0 +1,84 @@
+#showtooltip [pet:Охотник Скверны]Пожирание магии;Заслон от темной магии
+/use [mod: alt, @party1][mod: shift, @target][nomod, @player] Пожирание магии
+/use Поглощение теней
+
+#showtooltip 
+/use [mod: alt] Ритуал Душ
+/use [mod: shift] 13
+/use Камень здоровья из Скверны
+/use Создание камня здоровья
+
+#showtooltip
+/equipset [spec:3]3;[spec:2]2;1
+/use [button: 3] Связка души
+/use [pet:Бес, @player] Огненный щит
+/use [pet:Бес, @party1] Обнаружение невидимости
+/use [nopet:Бес, button:2] Господство Скверны
+/use [nopet:Бес] Призыв беса(Призыв)
+
+#showtooltip
+/castsequence !Доспех Скверны, !Демонический доспех
+/use [@player] Огненный щит
+/use Простая невидимость
+
+#showtooltip [pet:Охотник Скверны]Запрет чар;[pet:Демон Бездны]Жертвоприношение;[pet:Суккуб]Соблазн; Призыв охотника Скверны
+/use Жертвоприношение
+/use [mod:shift] Господство Скверны
+/castsequence [] reset=9 Призыв охотника Скверны, Связка души
+
+#showtooltip Призыв суккуба
+/dismount
+/use Жертвоприношение
+/use Простая невидимость
+/use [mod: shift] Господство Скверны
+/castsequence [] reset=9 Призыв суккуба, Связка души
+
+#showtooltip 
+/cancelaura [] Жертвоприношение
+/use [mod: shift] Господство Скверны
+/castsequence [mod: shift] reset=9 Призыв демона Бездны, Связка души
+/use Заслон от темной магии
+/use Жертвоприношение
+
+#showtooltip 
+/use [mod: shift][@mouseover, harm] Порча
+/castsequence [spec:3] reset=4 Нестабильное колдовство, Порча
+/castsequence reset=4 Жертвенный огонь, Порча
+
+#showtooltip 
+/use 10
+/use [spec:3] Порча
+/castsequence reset=5 Поджигание, Ожог Тьмы
+
+/dismount
+/petattack [mod:shift, @focus][@mouseover, harm][]
+/use [mod:shift, @focus][@mouseover, harm][]Запрет чар
+/use [mod:shift, @focus][@mouseover, harm][]Соблазн
+/use [mod:shift, @focus][@mouseover, harm][]Изгнание
+
+#showtooltip Лик смерти
+/stopcasting
+/use 10
+/use [mod: shift, @focus][@mouseover, harm][] Лик смерти
+
+#showtooltip Страх
+/petpassive [nopet:Суккуб]
+/use [mod:shift] Простая невидимость
+/use [mod:shift, @focus][@mouseover, harm][] Страх
+
+#showtooltip
+/stopcasting
+/cast [mod: shift] Огненный ливень
+/castsequence [] reset=8 !Неистовство Тьмы, Вой ужаса
+/use Муки
+
+#showtooltip Могучий камень чар
+/use [pet:Бес, @player] Огненный щит
+/use [button: 2] Могучий камень огня; []Могучий камень чар
+/use 16
+/click StaticPopup1Button1
+/use [button: 2] Создание камня огня; []Создание камня чар
+
+/run MyItem1= select(2, GetItemInfo("Поющий хрустальнокованный топор"));
+/run MyItem2 = select(2, GetItemInfo("Поводья Фаянсового боевого скорпиона"));
+/run SendChatMessage("Продам "..MyItem1..MyItem2.." ","channel",nil,1)

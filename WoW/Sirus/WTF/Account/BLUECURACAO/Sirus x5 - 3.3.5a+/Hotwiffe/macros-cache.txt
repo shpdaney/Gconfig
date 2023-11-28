@@ -1,0 +1,46 @@
+MACRO 16777217 "." INV_Misc_QuestionMark
+#showtooltip
+/cancelaura Драконий облик
+/use [flyable] Полет
+/use [noflyable] Бронированный лазурный ворквин
+/use [swimming] -
+/dismount [mounted]
+END
+MACRO 16777220 "." INV_Misc_QuestionMark
+/cast [mod: shift, @focus][@mouseover, harm][]Контроль над разумом
+END
+MACRO 16777218 "." INV_Misc_QuestionMark
+/castsequence reset=18 Объятия вампира, Внутренний огонь(Уровень 8), Защита от темной магии(Уровень 5), Слово силы: Стойкость(Уровень 7), Божественный дух(Уровень 5)
+END
+MACRO 16777219 "." INV_Misc_QuestionMark
+/castsequence reset=5 Прикосновение вампира(Уровень 4),  Слово Тьмы: Боль(Уровень 11)
+END
+MACRO 16777224 "mArenaSaerch" Ability_Hunter_MarkedForDeath
+/targetenemyplayer [@arena2, noexists]
+/stopmacro [@arena2, noexists]
+/click [@focus, noexists] BT4Button97; click [@target, noexists] BT4Button98; click [] BT4Button99
+END
+MACRO 16777221 "mFocus" Ability_Hunter_MasterMarksman
+F
+/focus [@target]
+/target [@arena1]
+/target [@arena2]
+/target [@focus]
+/targetlasttarget
+/focus [@target]
+/targetlasttarget
+END
+MACRO 16777223 "mSwitchTF" Ability_Creature_Cursed_04
+/target [@focus]
+/targetlasttarget
+/focus
+/targetlasttarget
+END
+MACRO 16777222 "mTarget" Ability_Hunter_SniperShot
+/target [@focus]
+/target [@arena1]
+/target [@arena2]
+/target [@focus]
+/targetlasttarget
+T
+END

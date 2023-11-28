@@ -1,0 +1,65 @@
+MACRO 16777220 "." INV_Misc_QuestionMark
+/castsequence !Mage Armor, !Ice Armor
+END
+MACRO 16777228 "." Spell_Fire_BurningSpeed
+/use 8
+/cancelaura Invisibility
+/cast Invisibility
+END
+MACRO 16777225 "." INV_Misc_QuestionMark
+/use [btn: 1] Dampen Magic(Rank 7)
+/use [btn: 2] Amplify Magic(Rank 7)
+/use [btn: 3]
+END
+MACRO 16777224 "Burst" INV_Misc_QuestionMark
+/cast Combustion
+/use Potion of Wild Magic
+/cast Icy Veins
+/cast Pyroblast
+END
+MACRO 16777227 "BW" INV_Misc_QuestionMark
+/castsequence reset=19 Blast Wave(Rank 9),Frost Nova(Rank 6)
+END
+MACRO 16777217 "CS" INV_Misc_QuestionMark
+/stopcasting
+/use [mod:shift, @focus][@mauseover, harm][] Counterspell
+END
+MACRO 16777232 "Curse" INV_Misc_QuestionMark
+/use [mod:shift, @party][@player] Remove Curse
+END
+MACRO 16777229 "DB" INV_Misc_QuestionMark
+/castsequence reset=19 Dragon's Breath(Rank 6), Cone of Cold(Rank 8)
+END
+MACRO 16777233 "Eat" INV_Misc_QuestionMark
+/use [mod] Conjure Refreshment(Rank 2)
+/use [nomod] Conjured Mana Strudel
+END
+MACRO 16777230 "FB" INV_Misc_QuestionMark
+/use Fire Blast(Rank 11)
+/use 10
+END
+MACRO 16777231 "IB" INV_Misc_QuestionMark
+/stopcasting
+/cancelaura Ice Block
+/cast Ice Block
+END
+MACRO 16777218 "LB" INV_Misc_QuestionMark
+/use [mod:shift, @focus][@mouseover, harm][] Living bomb
+/use 10
+END
+MACRO 16777223 "Mana" INV_Misc_QuestionMark
+/use  Mana Sapphire
+/use Runic Mana Potion
+/use Conjure Mana Gem(Rank 6)
+END
+MACRO 16777221 "Mount" Ability_Mount_Dreadsteed
+/use [@player] Slow Fall
+/use Swift Mistsaber
+END
+MACRO 16777219 "Poly" INV_Misc_QuestionMark
+/stopcasting
+/use [mod:shift, @focus][@mouseover, harm][] Polymorph
+END
+MACRO 16777226 "spell" INV_Misc_QuestionMark
+/use [mod:shift, @focus][] spellsteal
+END

@@ -1,0 +1,2 @@
+Prat-3.0_HighCPUUsageModules: enabled
+LibBabble-Class-3.0: enabled

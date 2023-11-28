@@ -1,0 +1,18 @@
+
+DiminishingReturnsDB = {
+	["namespaces"] = {
+		["ShadowedUnitFrames"] = {
+		},
+		["Blizzard"] = {
+		},
+		["Gladius"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Сквернасамка - Sirus x5 - 3.3.5a+"] = "Сквернасамка - Sirus x5 - 3.3.5a+",
+	},
+	["profiles"] = {
+		["Сквернасамка - Sirus x5 - 3.3.5a+"] = {
+		},
+	},
+}

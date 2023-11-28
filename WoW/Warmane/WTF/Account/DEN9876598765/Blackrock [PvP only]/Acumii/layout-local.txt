@@ -1,0 +1,8 @@
+Version: 1
+Frame: BagnonFrameinventory
+FrameLevel: 1
+Anchor: TOP
+X: 268
+Y: -5
+W: 422
+H: 750

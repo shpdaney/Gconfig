@@ -1,0 +1,10 @@
+MACRO 16777218 "." INV_Misc_QuestionMark
+/use 
+/use [@player] 
+/use [nocombat] Armored Brown Bear
+/use [combat] Ghost Wolf
+END
+MACRO 16777219 "burst" INV_Misc_QuestionMark
+/cast Blood Fury(Racial)
+/cast Feral Spirit
+END

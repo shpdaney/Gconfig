@@ -1,0 +1,72 @@
+MACRO 16777225 "." INV_Misc_QuestionMark
+/cast [mod: shift, @focus, harm][@mouseover, harm][nomod, @target] Долой оружие
+END
+MACRO 16777226 "." INV_Misc_QuestionMark
+/закл Смертельный бросок(Уровень 3)
+/закл Бросок
+/закл Выстрел
+END
+MACRO 16777221 "." INV_Misc_QuestionMark
+/cast [mod: shift, @focus, harm][@mouseover, harm][nomod, @target] Ослепление
+END
+MACRO 16777227 "." INV_Misc_QuestionMark
+#showtooltip Расправа
+/cast Расправа
+/startattack
+END
+MACRO 16777224 "." INV_Misc_QuestionMark
+/cast [mod: shift, @focus, harm][@mouseover, harm][nomod, @target] Пинок
+/с Гинекология Пинок
+END
+MACRO 16777218 "." INV_Misc_QuestionMark
+#showtooltip Отравление
+/закл Хладнокровие
+/закл Отравление
+END
+MACRO 16777231 "." INV_Misc_QuestionMark
+#showtooltip Внезапный удар
+/закл Умысел
+/закл Внезапный удар
+END
+MACRO 16777230 "." INV_Misc_QuestionMark
+#showtooltip Подлый трюк
+/закл Умысел
+/закл Подлый трюк
+END
+MACRO 16777232 "." INV_Misc_QuestionMark
+#showtooltip Гаррота
+/закл Умысел
+/закл Гаррота
+END
+MACRO 16777233 "." INV_Misc_QuestionMark
+/cast [mod: shift, @focus, harm][@mouseover, harm][nomod, @target] Шаг сквозь тень
+END
+MACRO 16777222 "sap" INV_Misc_QuestionMark
+/cleartarget
+/targetenemyplayer
+/use Ошеломление
+END
+MACRO 16777219 "stealth" INV_Misc_QuestionMark
+/stopattack
+/use [combat] Слиться с тенью(Расовая PvP)
+/use !Незаметность
+/use Умысле
+/use Подлый трюк
+END
+MACRO 16777220 "Готов!" Spell_Nature_Strength
+/use [nostealth] Ускользание
+/use Спринт
+/use [nocombat, nostealth] Незаметность; Исчезновение
+/use Хладнокровие
+/use Подготовка
+/use Подлый трюк
+END
+MACRO 16777229 "ШД" INV_Misc_QuestionMark
+/закл Танец теней
+/закл Умысел
+/закл Подлый трюк
+END
+MACRO 16777223 "напул" INV_Misc_QuestionMark
+/use [@targettarget, help][@focus, help][@Ник, help][@party1] Маленькие хитрости
+/use Умысел
+END

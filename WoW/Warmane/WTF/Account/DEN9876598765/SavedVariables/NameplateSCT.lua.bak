@@ -1,0 +1,16 @@
+
+NameplateSCTDB = {
+	["profileKeys"] = {
+		["Bloodstorm - Blackrock [PvP only]"] = "Default",
+	},
+	["global"] = {
+		["damageColor"] = false,
+		["animations"] = {
+			["autoattack"] = "rainfall",
+			["miss"] = "rainfall",
+			["autoattackcrit"] = "rainfall",
+			["animationspeed"] = 2,
+			["crit"] = "rainfall",
+		},
+	},
+}

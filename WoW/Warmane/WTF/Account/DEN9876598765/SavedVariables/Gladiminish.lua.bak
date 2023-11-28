@@ -1,0 +1,10 @@
+
+GladiminishDB = {
+	["profileKeys"] = {
+		["Bloodstorm - Blackrock [PvP only]"] = "Bloodstorm - Blackrock [PvP only]",
+	},
+	["profiles"] = {
+		["Bloodstorm - Blackrock [PvP only]"] = {
+		},
+	},
+}

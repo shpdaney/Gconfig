@@ -1,0 +1,229 @@
+
+SexyMapDB = {
+	["namespaces"] = {
+		["Ping"] = {
+		},
+		["Coordinates"] = {
+		},
+		["Buttons"] = {
+			["profiles"] = {
+				["Asummi - Blackrock [PvP only]"] = {
+					["direction"] = {
+						["hide"] = "always",
+					},
+					["close"] = {
+						["hide"] = "always",
+					},
+					["voice"] = {
+						["hide"] = "never",
+					},
+					["lockDragging"] = false,
+					["lfg"] = {
+						["hide"] = "always",
+					},
+					["zoom"] = {
+						["hide"] = "never",
+					},
+					["worldmap"] = {
+						["hide"] = "never",
+					},
+					["difficulty"] = {
+						["hide"] = "always",
+					},
+					["mapclock"] = {
+						["hide"] = "always",
+					},
+					["calendar"] = {
+						["hide"] = "always",
+					},
+					["pvp"] = {
+						["hide"] = "always",
+					},
+					["mail"] = {
+						["hide"] = "hover",
+					},
+					["dragPositions"] = {
+						["MinimapZoomIn"] = -29.25744700728379,
+						["GameTimeFrame"] = 42.76483964717789,
+						["LibDBIcon10_Bartender4"] = 21.99555016098611,
+					},
+					["tracking"] = {
+						["hide"] = "hover",
+					},
+				},
+				["Default"] = {
+					["direction"] = {
+						["hide"] = "always",
+					},
+					["calendar"] = {
+						["hide"] = "always",
+					},
+					["voice"] = {
+						["hide"] = "never",
+					},
+					["zoom"] = {
+						["hide"] = "never",
+					},
+					["lockDragging"] = false,
+					["lfg"] = {
+						["hide"] = "always",
+					},
+					["pvp"] = {
+						["hide"] = "always",
+					},
+					["worldmap"] = {
+						["hide"] = "never",
+					},
+					["difficulty"] = {
+						["hide"] = "always",
+					},
+					["mapclock"] = {
+						["hide"] = "always",
+					},
+					["close"] = {
+						["hide"] = "always",
+					},
+					["mail"] = {
+						["hide"] = "hover",
+					},
+					["dragPositions"] = {
+						["MinimapZoomIn"] = -29.25744700728379,
+						["GameTimeFrame"] = 42.76483964717789,
+						["LibDBIcon10_Bartender4"] = 21.99555016098611,
+					},
+					["tracking"] = {
+						["hide"] = "hover",
+					},
+				},
+			},
+		},
+		["AutoZoom"] = {
+		},
+		["Shapes"] = {
+			["profiles"] = {
+				["Asummi - Blackrock [PvP only]"] = {
+					["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+				},
+				["Blackrock [PvP only]"] = {
+					["shape"] = "Textures\\MinimapMask",
+				},
+				["Default"] = {
+					["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+				},
+			},
+		},
+		["Fader"] = {
+		},
+		["Movers"] = {
+			["profiles"] = {
+				["Asummi - Blackrock [PvP only]"] = {
+					["clamp"] = false,
+					["framePositions"] = {
+						["WatchFrame"] = {
+							["y"] = 401.3826838449029,
+							["x"] = 73.48182400530247,
+						},
+						["VehicleSeatIndicator"] = {
+							["y"] = 388.3826919829845,
+							["x"] = 137.4818108749525,
+						},
+					},
+				},
+				["Default"] = {
+					["clamp"] = false,
+					["framePositions"] = {
+						["WatchFrame"] = {
+							["y"] = 401.3826838449029,
+							["x"] = 73.48182400530247,
+						},
+						["VehicleSeatIndicator"] = {
+							["y"] = 388.3826919829845,
+							["x"] = 137.4818108749525,
+						},
+					},
+				},
+			},
+		},
+		["Borders"] = {
+			["profiles"] = {
+				["Asummi - Blackrock [PvP only]"] = {
+					["applyPreset"] = false,
+					["backdrop"] = {
+						["show"] = true,
+						["settings"] = {
+							["edgeSize"] = 17,
+						},
+						["scale"] = 1.07,
+					},
+				},
+				["Blackrock [PvP only]"] = {
+					["applyPreset"] = false,
+					["borders"] = {
+						{
+							["a"] = 1,
+							["r"] = 0.3098039215686275,
+							["name"] = "Rune 1",
+							["b"] = 1,
+							["scale"] = 1.4,
+							["rotSpeed"] = -16,
+							["g"] = 0.4784313725490196,
+							["texture"] = "SPELLS\\AURARUNE256.BLP",
+						}, -- [1]
+						{
+							["a"] = 0.3799999952316284,
+							["r"] = 0.196078431372549,
+							["rotSpeed"] = 4,
+							["b"] = 1,
+							["scale"] = 2.1,
+							["name"] = "Rune 2",
+							["g"] = 0.2901960784313725,
+							["texture"] = "SPELLS\\AuraRune_A.blp",
+						}, -- [2]
+						{
+							["a"] = 0.3,
+							["name"] = "Fade",
+							["b"] = 1,
+							["scale"] = 1.6,
+							["r"] = 0,
+							["g"] = 0.2235294117647059,
+							["texture"] = "SPELLS\\T_VFX_HERO_CIRCLE.BLP",
+						}, -- [3]
+					},
+				},
+				["Default"] = {
+					["applyPreset"] = false,
+					["backdrop"] = {
+						["show"] = true,
+						["settings"] = {
+							["edgeSize"] = 17,
+						},
+						["scale"] = 1.07,
+					},
+				},
+			},
+		},
+		["HudMap"] = {
+			["profiles"] = {
+				["Asummi - Blackrock [PvP only]"] = {
+					["setNewScale"] = true,
+					["scale"] = 1.4,
+				},
+				["Default"] = {
+					["setNewScale"] = true,
+					["scale"] = 1.4,
+				},
+			},
+		},
+		["ZoneText"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Asummi - Blackrock [PvP only]"] = "Blackrock [PvP only]",
+	},
+	["profiles"] = {
+		["Asummi - Blackrock [PvP only]"] = {
+		},
+		["Default"] = {
+		},
+	},
+}

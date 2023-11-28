@@ -1,0 +1,101 @@
+MACRO 16777231 "." INV_Misc_QuestionMark
+#showtooltip Death Coil
+/stopcasting
+/use [mod: shift, @focus][@mouseover, harm][] Death Coil
+END
+MACRO 16777227 "." INV_Misc_QuestionMark
+/castsequence reset=5 Conflagrate, Shadowburn
+END
+MACRO 16777222 "." INV_Misc_QuestionMark
+#showtooltip [pet:Felhunter]Devour Magic; Shadow Ward
+/use [mod: alt, @party1][mod: shift, @target][nomod, @player] Devour Magic
+/use ?????????? ?????
+END
+MACRO 16777230 "." INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast [mod: shift] 
+/castsequence [] reset=8 !Shadowfury, Howl of Terror
+END
+MACRO 16777221 "." INV_Misc_QuestionMark
+#showtooltip Create Spellstone
+/use [pet:???, @player] Fire Shield
+/use [button: 2] Grand Firelstone; []Grand Spellstone
+/use 16
+/click StaticPopup1Button1
+/use [button: 2] Create Firestone; []Create Spellstone
+END
+MACRO 16777226 "." INV_Misc_QuestionMark
+#showtooltip 
+/use [mod: shift][@mouseover, harm] Corruption
+/castsequence reset=4 Immolate, Corruption
+END
+MACRO 16777218 "Armor" INV_Misc_QuestionMark
+#showtooltip
+/castsequence !Fel Armor, !Demon Armor
+/use [@player] Fire Shield
+/use Lesser Invisibility
+END
+MACRO 16777219 "demons" INV_Misc_QuestionMark
+succubus
+/cast Seduction
+/cast Lesser Invisibility
+Felhunter
+/cast Spell Lock(Rank 2)
+/cast Devour Magic(Rank 7)
+Voidwalker
+/cast Sacrifice(Rank 9)
+imp
+/cast Fire Shield(Rank 7)
+END
+MACRO 16777229 "Fear" INV_Misc_QuestionMark
+#showtooltip Fear
+/petpassive [nopet:succubus]
+/use [mod:shift] Lesser Invisibility
+/use [mod:shift, @focus][@mouseover, harm][] Fear
+END
+MACRO 16777223 "FH" INV_Misc_QuestionMark
+#showtooltip [pet:Felhunter]Spell Lock;[pet:Voidwalker]Sacrifice;Summon Felhunter
+/dismount
+/use Sacrifice
+/use [mod:shift] Fel Domination
+/castsequence [] reset=9 Summon Felhunter, Soul Link
+END
+MACRO 16777225 "FW" INV_Misc_QuestionMark
+#showtooltip 
+/cancelaura [] Sacrifice
+/use [mod: shift] Fel Domination
+/castsequence [mod: shift] reset=9 Summon Succubus, Soul Link
+/use Shadow Ward
+/use Sacrifice
+END
+MACRO 16777217 "HS" INV_Misc_QuestionMark
+#showtooltip 
+/use [mod: alt] Ritual of Souls
+/use [mod: shift] 13
+/use Fel Healthstone
+/use Create Healthstone
+END
+MACRO 16777220 "Imp" INV_Misc_QuestionMark
+#showtooltip
+/use [button: 3] Soul Link
+/use [pet:imp, @player] Fire Shield
+/use [pet:imp, @party1] Detect Invisibility
+/use [nopet:imp, button:2] Fel Domination
+/use [nopet:imp] Summon Imp(Summon)
+END
+MACRO 16777228 "PET" Ability_Hunter_Pet_Wolf
+/dismount
+/petattack [mod:shift, @focus][@mouseover, harm][]
+/use [mod:shift, @focus][@mouseover, harm][]Spell Lock
+/use [mod:shift, @focus][@mouseover, harm][]Seduction
+/use [mod:shift, @focus][@mouseover, harm][]Banish
+END
+MACRO 16777224 "Suc" INV_Misc_QuestionMark
+#showtooltip Summon Succubus(Summon)
+/dismount
+/use Lesser Invisibility
+/use Sacrifice
+/use [mod:shift] Fel Domination
+/castsequence [] reset=9 Summon Succubus, Soul Link
+END

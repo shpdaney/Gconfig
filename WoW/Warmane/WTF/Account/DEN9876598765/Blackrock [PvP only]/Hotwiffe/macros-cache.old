@@ -1,0 +1,31 @@
+MACRO 16777220 "." INV_Misc_QuestionMark
+/castsequence !Mage Armor, !Ice Armor
+END
+MACRO 16777224 "Burst" INV_Misc_QuestionMark
+/cast Combustion
+/use 13
+/cast Pyroblast
+END
+MACRO 16777217 "CS" INV_Misc_QuestionMark
+/use [mod:shift, @focus][@mauseover, harm][] Counterspell
+END
+MACRO 16777222 "Eat" INV_Misc_QuestionMark
+#showtooltip 
+/use [mod: alt] Ritual of Refreshment
+/use  Conjured Mana Strudel
+/use Conjure Refreshment
+END
+MACRO 16777218 "LB" INV_Misc_QuestionMark
+/use [mod:shift, @focus][@mouseover, harm][] Living bomb
+END
+MACRO 16777223 "Mana" INV_Misc_QuestionMark
+/use  Mana Sapphire
+/use Conjure Mana Gem
+END
+MACRO 16777221 "Mount" Ability_Druid_ChallangingRoar
+/use [@player] Slow Fall
+/use Armored Brown Bear
+END
+MACRO 16777219 "Poly" INV_Misc_QuestionMark
+/use [mod:shift, @focus][@mouseover, harm][] Polymorph
+END
