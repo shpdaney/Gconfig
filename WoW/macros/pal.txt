@@ -1,0 +1,3 @@
+Ретри
+https://sirus.su/base/talents#MZV0bZVGzZVfbxbIuGdIbsu
+/run print("\124cfff58cba\124Htalents:MZV0bZVGzZVfbxbIuGdIbsu\124h[Воздаяние:7/11/53]\124h\124r");
