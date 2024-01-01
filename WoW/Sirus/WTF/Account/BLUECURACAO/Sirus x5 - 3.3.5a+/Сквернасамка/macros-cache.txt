@@ -1,9 +1,22 @@
+MACRO 16777237 "." INV_Misc_QuestionMark
+#showtooltip [pet:Охотник Скверны]Пожирание магии;Заслон от темной магии
+/petpassive
+/petfollow
+/use [mod: alt, @party1][mod: shift, @target][nomod, @player] Пожирание магии
+/use Поглощение теней
+END
+MACRO 16777232 "." INV_Misc_QuestionMark
+#showtooltip 
+/use [mod: alt, @party1][mod: shift, exists, @target][mod: shift, @player]13
+/use Камень здоровья из Скверны
+/use Создание камня здоровья
+END
 MACRO 16777242 "." INV_Misc_QuestionMark
 #showtooltip Порча
 /use [nospec:3] 10
 /use [@mouseover, harm] Порча
 /use [spec:3] Порча
-/castsequence reset=5 Поджигание, Ожог Тьмы
+/castsequence [nospec:3] reset=5 Поджигание, Ожог Тьмы
 END
 MACRO 16777233 "." INV_Misc_QuestionMark
 #showtooltip
@@ -37,19 +50,6 @@ MACRO 16777244 "." INV_Misc_QuestionMark
 #showtooltip
 /cast [mod: shift, @focus, harm][] Проклятие стихий
 /equip Жезл рвения разгневанного гладиатора
-END
-MACRO 16777237 "." INV_Misc_QuestionMark
-#showtooltip [pet:Охотник Скверны]Пожирание магии;Заслон от темной магии
-/petpassive
-/petfollow
-/use [mod: alt, @party1][mod: shift, @target][nomod, @player] Пожирание магии
-/use Поглощение теней
-END
-MACRO 16777232 "." INV_Misc_QuestionMark
-#showtooltip 
-/use [mod: alt, @party1][mod: shift, exists, @target][mod: shift, @player]13
-/use Камень здоровья из Скверны
-/use Создание камня здоровья
 END
 MACRO 16777238 "2" INV_Misc_QuestionMark
 #showtooltip Призыв демона Бездны
@@ -99,7 +99,7 @@ MACRO 16777239 "Чары" INV_Misc_QuestionMark
 /cast [button: 2] Создание камня огня; [] Создание камня чар
 END
 MACRO 16777241 "стан" INV_Misc_QuestionMark
-/stopcasting
+/stopcasting 
 /castsequence [nomod] reset=8 !Неистовство Тьмы, Вой ужаса
 /use [mod] Огненный ливень
 /use [nospec:2, nomod] Вой ужаса

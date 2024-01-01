@@ -1,0 +1,38 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Сквернасамка - Sirus x5 - 3.3.5a+"] = "Сквернасамка - Sirus x5 - 3.3.5a+",
+	},
+	["profiles"] = {
+		["Сквернасамка - Sirus x5 - 3.3.5a+"] = {
+			["LootBrowserStyle"] = 2,
+			["BigraidHeroic"] = true,
+			["AtlasType"] = "Unknown",
+			["LastBoss"] = "REPMENU",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Сквернасамка"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Сквернасамка"] = {
+		},
+	},
+}
+AtlasLootFrameLock = {
+	0, -- [1]
+}
+AtlasLootFrameLockPos = {
+}
+AtlasLootNeedUprate = nil

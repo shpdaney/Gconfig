@@ -1,0 +1,301 @@
+--[[
+Battlegrounds.en.lua
+This file defines the loot buttons in the Atlas interface for the battleground maps.
+]]
+------------
+-- Layout --
+------------
+
+AtlasLootBattlegrounds = {
+
+    AlteracValleyNorth = {
+        "";
+	    "";
+	    "";
+	    "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+        };
+
+    AlteracValleySouth = {
+        "";
+        "";
+	    "";
+	    "";
+	    "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+
+    ArathiBasin = {
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+
+    WarsongGulch = {
+        "";
+        "";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	EyeOfTheStorm = {
+        "";
+        "";
+	    "";
+        "";
+	    "";
+        "";
+        "";
+	    "";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	StrandOfTheAncients = {
+        "";
+	    "";
+        "";
+        "";
+	    "";
+        "";
+        "";
+	    "";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	IsleOfConquest = {
+        "";
+	    "";
+        "";
+        "";
+	    "";
+        "";
+        "";
+	    "";
+        "";
+	    "";
+        "";
+        "";
+	    "";
+        "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+
+	TheTempleCityOfAlaWashte = {
+        "";
+	    "";
+        "";
+        "";
+	    "";
+	    "";
+	    "";
+	    "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+
+	TwinPeaks = {
+	    "";
+	    "";
+        "";
+	    "";
+	    "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+
+	TempleOfKotmogu = {
+        "";
+	    "";
+	    "";
+        "";
+        "";
+	    "";
+	    "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	SlaveryValley = {
+        "";
+		"";
+	    "";
+	    "";
+        "";
+	    "";
+	    "";
+	    "";
+	    "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	SilvershardMines = {
+	    "";
+	    "";
+        "";
+        "";
+	    "";
+	    "";
+	    "";
+	    "";
+        "";
+        "";
+	    "";
+	    "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+	TheBattleForGilneas = {
+        "";
+	    "";
+	    "";
+        "";
+        "";
+	    "";
+        "LEVEL80PVPSETS";
+        "PVP80NONSETEPICS";
+        "PvPNewTokens_x2";
+        "PvP80UnSet1_x2";
+        "GladiatorWeapons1_x2";
+    };
+};

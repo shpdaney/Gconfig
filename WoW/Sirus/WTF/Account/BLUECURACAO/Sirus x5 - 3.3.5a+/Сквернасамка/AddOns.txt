@@ -3,7 +3,7 @@ Bagnon: enabled
 Bagnon_Config: enabled
 Bagnon_Forever: enabled
 Bagnon_GuildBank: enabled
-Bagnon_Tooltips: disabled
+Bagnon_Tooltips: enabled
 Bartender4: enabled
 BlizzMove: enabled
 DiminishingReturns: disabled

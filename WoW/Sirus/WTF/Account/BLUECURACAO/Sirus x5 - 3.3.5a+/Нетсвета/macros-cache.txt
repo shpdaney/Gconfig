@@ -1,0 +1,17 @@
+MACRO 16777217 "." INV_Misc_QuestionMark
+/use [mod: shift, @mouseover, harm][mod: shift] Длань возмездия
+/use [mod: alt, @party1][nomod]Омовение
+END
+MACRO 16777222 "." INV_Misc_QuestionMark
+/use [mod: shift, @focus][@mouseover, harm][] Лик смерти
+END
+MACRO 16777219 "." INV_Misc_QuestionMark
+/use [mod:shift]Экзорцизм
+/use [mod: alt, @party1][nomod]Длань свободы
+END
+MACRO 16777220 "Alt" INV_Misc_QuestionMark
+/use [@party1] Вспышка Света
+END
+MACRO 16777218 "база" INV_Misc_QuestionMark
+/use [mod: alt, @party1][mod: shift, @target][nomod, @player] Вспышка Света
+END

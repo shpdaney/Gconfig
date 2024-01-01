@@ -1,10 +1,10 @@
 
 MADB = {
-	["frameListRows"] = 18,
+	["closeGUIOnEscape"] = false,
 	["characters"] = {
 	},
-	["closeGUIOnEscape"] = false,
 	["tooltips"] = 1,
+	["frameListRows"] = 18,
 	["profiles"] = {
 		["default"] = {
 			["name"] = "default",

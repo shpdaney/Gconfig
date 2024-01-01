@@ -1,3 +1,7 @@
+MACRO 16777219 "." INV_Misc_QuestionMark
+/закл [combat] Под защитой Теней(Активная PvP)
+/закл Облик птицы(Смена облика)
+END
 MACRO 16777218 "." INV_Misc_QuestionMark
 #showtooltip Звездопад(Уровень 4)
 /cast [mod: shift] Ледяная стрела(Уровень 1)

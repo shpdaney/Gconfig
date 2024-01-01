@@ -29,12 +29,12 @@ MACRO 46 "#Gladius" Ability_Racial_TwoForms
 /gladius test3
 END
 MACRO 43 "#LFArenf" Spell_Holy_BlessingOfStrength
-/.1 {треугольник} Лок лф 2с Шаму 2.2+
-/6 {треугольник}Рог 232 лф 2с с 1.5к
+/1 {треугольник} Лок 270 лф 2с Хил / Элем
+/.6 {треугольник}Рог 232 лф 2с с 1.5к
 END
 MACRO 35 "#LFreid" Ability_TownWatch
 /р2 {треугольник} Кара об ТокенРан + Мароуз (Иллюзии Анролл) нид ВСЕ {Крест} Токены ролл
-/5 {треугольник} Яма Гер Регайте
+/1 {треугольник} Контракты нид танк хил
 END
 MACRO 78 "#RC" Ability_Fixated_State_Purple
 /ор https://discord.gg/JEJbgtpd
@@ -86,7 +86,7 @@ MACRO 76 "PetFollow" Ability_Hunter_Pet_Assist
 /petpassive
 /petfollow
 /use Простая невидимость
-/закл Портативная Лунная ракета
+/закл Ультрамариновый эфемерный скакун
 END
 MACRO 77 "PetStay" Ability_Hunter_SeparationAnxiety
 /petpassive
@@ -120,9 +120,12 @@ END
 MACRO 89 "Пал" Spell_Holy_DivineIntervention
 /equip Полевой мешочек тауматурга
 END
+MACRO 91 "Поиск" Spell_Nature_FarSight
+/ц Затерянный
+END
 MACRO 71 "Продам" Spell_Holy_WeaponMastery
-/run MyItem1= select(2, GetItemInfo("Красивое черное платье"));
-/run SendChatMessage("Продам "..MyItem1.." ","channel",nil,1)
+/run MyItem1= select(2, GetItemInfo("Гербовая накидка с омелой"));
+/run SendChatMessage("Продам (трансмог на любой тип брони) "..MyItem1.." ","channel",nil,1)
 END
 MACRO 55 "СС" Spell_Shadow_SoulGem
 /use Демонический камень души
@@ -134,9 +137,6 @@ TEXT
 ID
 N 
 END
-MACRO 93 "тест" INV_Misc_QuestionMark
-/click [mod] PetActionButton1; [nomod] PetActionButton2
-END
 MACRO 80 "фокус" Ability_Hunter_MarkedForDeath
-/фокус
+/фокус Чумной
 END

@@ -10,11 +10,11 @@ Prat3DB = {
 		["Prat_Frames"] = {
 			["profiles"] = {
 				["Default"] = {
-					["minchatwidthdefault"] = 296.0000005470979,
-					["maxchatheightdefault"] = 700.0000358349134,
-					["maxchatwidthdefault"] = 1199.999981398671,
+					["minchatwidthdefault"] = 295.9999955513367,
+					["maxchatheightdefault"] = 700.0000111216582,
+					["maxchatwidthdefault"] = 1200.000080075939,
 					["initialized"] = true,
-					["minchatheightdefault"] = 120.0000016412938,
+					["minchatheightdefault"] = 120.0000044486633,
 				},
 			},
 		},
@@ -63,11 +63,14 @@ Prat3DB = {
 	},
 	["profileKeys"] = {
 		["Дксюдаиди - Sirus x5 - 3.3.5a+"] = "Default",
-		["Звездопадаль - Sirus x5 - 3.3.5a+"] = "Default",
-		["Гинекология - Sirus x5 - 3.3.5a+"] = "Default",
-		["Сквернасамка - Sirus x5 - 3.3.5a+"] = "Default",
-		["Цфукпфурпждф - Scourge x2 - 3.3.5a+"] = "Default",
+		["Чумосамка - Sirus x5 - 3.3.5a+"] = "Default",
 		["Защигалка - Sirus x5 - 3.3.5a+"] = "Default",
+		["Звездопадаль - Sirus x5 - 3.3.5a+"] = "Default",
+		["Нетсвета - Sirus x5 - 3.3.5a+"] = "Default",
+		["Сквернасамка - Sirus x5 - 3.3.5a+"] = "Default",
+		["Скверносамка - Sirus x5 - 3.3.5a+"] = "Default",
+		["Цфукпфурпждф - Scourge x2 - 3.3.5a+"] = "Default",
+		["Гинекология - Sirus x5 - 3.3.5a+"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

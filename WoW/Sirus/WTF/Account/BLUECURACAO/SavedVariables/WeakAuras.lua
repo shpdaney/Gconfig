@@ -219,9 +219,9 @@ WeakAurasSaved = {
 				["name"] = "Обледенение",
 				["icon"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 			},
-			[2.01] = {
-				["name"] = "Улучшенный огненный взрыв",
-				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			[2.05] = {
+				["name"] = "Горячее стремление",
+				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
 			},
 			[3.05] = {
 				["name"] = "Защита от льда",
@@ -327,9 +327,9 @@ WeakAurasSaved = {
 				["name"] = "Сила огня",
 				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
 			},
-			[2.05] = {
-				["name"] = "Горячее стремление",
-				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
+			[2.01] = {
+				["name"] = "Улучшенный огненный взрыв",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
 			},
 			[1.02] = {
 				["name"] = "Средоточие чар",
@@ -559,9 +559,9 @@ WeakAurasSaved = {
 				["name"] = "Зараза",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_PainfulAfflictions",
 			},
-			[3.05] = {
-				["name"] = "Катаклизм",
-				["icon"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
+			[1.16] = {
+				["name"] = "Проклятие изнеможения",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
 			},
 			[2.18] = {
 				["name"] = "Демоническая устойчивость",
@@ -579,21 +579,21 @@ WeakAurasSaved = {
 				["name"] = "Улучшенное похищение души",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_Haunting",
 			},
-			[2.03] = {
-				["name"] = "Демоническое облачение",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
+			[2.26] = {
+				["name"] = "Демонический союз",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicPact",
 			},
-			[1.1] = {
-				["name"] = "Усиление проклятия",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
+			[3.01] = {
+				["name"] = "Обжигающая стрела Тьмы",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
 			},
 			[1.14] = {
 				["name"] = "Объятия Тьмы",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowEmbrace",
 			},
-			[3.01] = {
-				["name"] = "Обжигающая стрела Тьмы",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
+			[1.1] = {
+				["name"] = "Усиление проклятия",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
 			},
 			[1.22] = {
 				["name"] = "Пронзительный вой ужаса",
@@ -639,9 +639,9 @@ WeakAurasSaved = {
 				["name"] = "Связка души",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
 			},
-			[2.26] = {
-				["name"] = "Демонический союз",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicPact",
+			[2.03] = {
+				["name"] = "Демоническое облачение",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 			},
 			[3.22] = {
 				["name"] = "Обратный поток",
@@ -655,9 +655,9 @@ WeakAurasSaved = {
 				["name"] = "Истребление",
 				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball02",
 			},
-			[1.16] = {
-				["name"] = "Проклятие изнеможения",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
+			[3.05] = {
+				["name"] = "Катаклизм",
+				["icon"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
 			},
 			[1.06] = {
 				["name"] = "Улучшенный жизнеотвод",
@@ -861,21 +861,21 @@ WeakAurasSaved = {
 				["name"] = "Мудрое правосудие",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementoftheWise",
 			},
-			[2.01] = {
-				["name"] = "Божественность",
-				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+			[2.05] = {
+				["name"] = "Предчувствие",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 			},
-			[1.16] = {
-				["name"] = "Священная сила",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			[3.05] = {
+				["name"] = "Улучшенное благословение могущества",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			},
 			[1.2] = {
 				["name"] = "Священное очищение",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
 			},
-			[3.05] = {
-				["name"] = "Улучшенное благословение могущества",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			[1.16] = {
+				["name"] = "Священная сила",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
 			},
 			[1.06] = {
 				["name"] = "Мастер аур",
@@ -921,9 +921,9 @@ WeakAurasSaved = {
 				["name"] = "Специализация на двуручном оружии",
 				["icon"] = "Interface\\Icons\\INV_Hammer_04",
 			},
-			[3.18] = {
-				["name"] = "Покаяние",
-				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			[3.26] = {
+				["name"] = "Божественная буря",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
 			},
 			[1.01] = {
 				["name"] = "Средоточие духа",
@@ -945,9 +945,9 @@ WeakAurasSaved = {
 				["name"] = "Улучшенное возложение рук",
 				["icon"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 			},
-			[3.26] = {
-				["name"] = "Божественная буря",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
+			[3.18] = {
+				["name"] = "Покаяние",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
 			},
 			[1.23] = {
 				["name"] = "Безупречное правосудие",
@@ -981,9 +981,9 @@ WeakAurasSaved = {
 				["name"] = "Священный долг",
 				["icon"] = "Interface\\Icons\\Spell_Holy_DivineIntervention",
 			},
-			[2.05] = {
-				["name"] = "Предчувствие",
-				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			[2.01] = {
+				["name"] = "Божественность",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
 			},
 			[3.17] = {
 				["name"] = "Искусство войны",
@@ -1203,9 +1203,9 @@ WeakAurasSaved = {
 				["name"] = "Дар природы",
 				["icon"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
 			},
-			[2.05] = {
-				["name"] = "Плотная шкура",
-				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			[2.01] = {
+				["name"] = "Свирепость",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
 			},
 			[3.05] = {
 				["name"] = "Скрытность",
@@ -1311,9 +1311,9 @@ WeakAurasSaved = {
 				["name"] = "Естественный отбор",
 				["icon"] = "Interface\\Icons\\Ability_Druid_Enrage",
 			},
-			[2.01] = {
-				["name"] = "Свирепость",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
+			[2.05] = {
+				["name"] = "Плотная шкура",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
 			},
 			[1.02] = {
 				["name"] = "Сотворение",
@@ -1541,9 +1541,9 @@ WeakAurasSaved = {
 				["name"] = "Вращение лезвий",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_BladeTwisting",
 			},
-			[2.01] = {
-				["name"] = "Улучшенный парализующий удар",
-				["icon"] = "Interface\\Icons\\Ability_Gouge",
+			[2.05] = {
+				["name"] = "Отражение",
+				["icon"] = "Interface\\Icons\\Ability_Parry",
 			},
 			[1.16] = {
 				["name"] = "Печать судьбы",
@@ -1569,13 +1569,13 @@ WeakAurasSaved = {
 				["name"] = "Поиск слабости",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_FindWeakness",
 			},
-			[2.03] = {
-				["name"] = "Специализация на бое двумя оружиями",
-				["icon"] = "Interface\\Icons\\Ability_DualWield",
-			},
 			[2.26] = {
 				["name"] = "Жар битвы",
 				["icon"] = "Interface\\Icons\\Ability_Creature_Disease_03",
+			},
+			[2.03] = {
+				["name"] = "Специализация на бое двумя оружиями",
+				["icon"] = "Interface\\Icons\\Ability_DualWield",
 			},
 			[3.01] = {
 				["name"] = "Неослабевающие удары",
@@ -1601,17 +1601,17 @@ WeakAurasSaved = {
 				["name"] = "Кровавый фонтан",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_BloodSplatter",
 			},
-			[3.26] = {
-				["name"] = "Шаг сквозь тень",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_Shadowstep",
+			[3.18] = {
+				["name"] = "Убойная сила",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Crossbow_11",
 			},
 			[2.28] = {
 				["name"] = "Череда убийств",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_MurderSpree",
 			},
-			[3.18] = {
-				["name"] = "Убойная сила",
-				["icon"] = "Interface\\Icons\\INV_Weapon_Crossbow_11",
+			[3.26] = {
+				["name"] = "Шаг сквозь тень",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Shadowstep",
 			},
 			[2.24] = {
 				["name"] = "Незаслуженное преимущество",
@@ -1649,9 +1649,9 @@ WeakAurasSaved = {
 				["name"] = "Специализация на метательном оружии",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_ThrowingSpecialization",
 			},
-			[2.05] = {
-				["name"] = "Отражение",
-				["icon"] = "Interface\\Icons\\Ability_Parry",
+			[2.01] = {
+				["name"] = "Улучшенный парализующий удар",
+				["icon"] = "Interface\\Icons\\Ability_Gouge",
 			},
 			[1.02] = {
 				["name"] = "Беспощадные атаки",
@@ -1679,6 +1679,362 @@ WeakAurasSaved = {
 			},
 		},
 		["DEATHKNIGHT"] = {
+			[2.2] = {
+				["name"] = "Ненасытная стужа",
+				["icon"] = "Interface\\Icons\\INV_Staff_15",
+			},
+			[2.16] = {
+				["name"] = "Цепкие ледяные когти",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_IcyTalons",
+			},
+			[1.04] = {
+				["name"] = "Клинковая броня",
+				["icon"] = "Interface\\Icons\\INV_Shoulder_36",
+			},
+			[3.06] = {
+				["name"] = "Нечестивый приказ",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_Strangulate",
+			},
+			[2.1] = {
+				["name"] = "Машина для убийств",
+				["icon"] = "Interface\\Icons\\INV_Sword_122",
+			},
+			[1.29] = {
+				["name"] = "Танцующее руническое оружие",
+				["icon"] = "Interface\\Icons\\INV_Sword_07",
+			},
+			[1.25] = {
+				["name"] = "Воля мертвых",
+				["icon"] = "Interface\\Icons\\Ability_Creature_Cursed_02",
+			},
+			[3.23] = {
+				["name"] = "Великая власть нечестивости",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_UnholyPresence",
+			},
+			[2.12] = {
+				["name"] = "Бесконечная зима",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Twilight",
+			},
+			[2.08] = {
+				["name"] = "Перерождение",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
+			},
+			[1.23] = {
+				["name"] = "Неумолимый рок",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PainSpike",
+			},
+			[2.06] = {
+				["name"] = "Ледяная выдержка",
+				["icon"] = "Interface\\Icons\\Ability_DualWield",
+			},
+			[1.21] = {
+				["name"] = "Великая власть крови",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_BloodPresence",
+			},
+			[3.15] = {
+				["name"] = "Порочность",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowandFlame",
+			},
+			[3.07] = {
+				["name"] = "Ненасытный мертвец",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_Gnaw_Ghoul",
+			},
+			[2.27] = {
+				["name"] = "Коварство Кровожада",
+				["icon"] = "Interface\\Icons\\INV-Sword_53",
+			},
+			[1.19] = {
+				["name"] = "Кровочерви",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech",
+			},
+			[3.03] = {
+				["name"] = "Предчувствие",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MirrorImage",
+			},
+			[3.28] = {
+				["name"] = "Разносчик черной чумы",
+				["icon"] = "Interface\\Icons\\Ability_Creature_Cursed_03",
+			},
+			[3.2] = {
+				["name"] = "Повелитель вурдалаков",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_AnimateDead",
+			},
+			[2.29] = {
+				["name"] = "Воющий ветер",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
+			},
+			[2.25] = {
+				["name"] = "Адаптация",
+				["icon"] = "Interface\\Icons\\Spell_Fire_ElementalDevastation",
+			},
+			[1.09] = {
+				["name"] = "Повелитель рун смерти",
+				["icon"] = "Interface\\Icons\\INV_Sword_62",
+			},
+			[3.24] = {
+				["name"] = "Бешенство вурдалака",
+				["icon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
+			},
+			[3.16] = {
+				["name"] = "Погребальный Плач",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Shadesofdarkness",
+			},
+			[2.23] = {
+				["name"] = "Кровь Севера",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Shortblade_79",
+			},
+			[1.11] = {
+				["name"] = "Отражение заклинаний",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_SpellDeflection",
+			},
+			[1.07] = {
+				["name"] = "Захват рун",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_RuneTap",
+			},
+			[3.04] = {
+				["name"] = "Эпидемия",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			},
+			[2.21] = {
+				["name"] = "Великая власть льда",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_FrostPresence",
+			},
+			[1.01] = {
+				["name"] = "Мясник",
+				["icon"] = "Interface\\Icons\\INV_Axe_68",
+			},
+			[3.29] = {
+				["name"] = "Удар Плети",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_ScourgeStrike",
+			},
+			[3.08] = {
+				["name"] = "Вспышка болезни",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PlagueCloud",
+			},
+			[2.19] = {
+				["name"] = "Вечная мерзлота",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Wisp",
+			},
+			[2.15] = {
+				["name"] = "Смертный холод",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_2",
+			},
+			[1.26] = {
+				["name"] = "Удар в сердце",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Shortblade_40",
+			},
+			[1.03] = {
+				["name"] = "Клинковая ограда",
+				["icon"] = "Interface\\Icons\\Ability_UpgradeMoonGlaive",
+			},
+			[3.25] = {
+				["name"] = "Предсмертная лихорадка",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NullifyDisease",
+			},
+			[2.13] = {
+				["name"] = "Хладная броня ужаса",
+				["icon"] = "Interface\\Icons\\INV_CHEST_MAIL_04",
+			},
+			[1.27] = {
+				["name"] = "Сила Могрейна",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_ClassIcon",
+			},
+			[1.28] = {
+				["name"] = "Кровопийца",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
+			},
+			[1.24] = {
+				["name"] = "Кровь вампира",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
+			},
+			[3.02] = {
+				["name"] = "Болезнетворность",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
+			},
+			[2.17] = {
+				["name"] = "Безжалостная борьба",
+				["icon"] = "Interface\\Icons\\INV_Sword_112",
+			},
+			[3.12] = {
+				["name"] = "Закаленный в крови клинок",
+				["icon"] = "Interface\\Icons\\Ability_CriticalStrike",
+			},
+			[2.02] = {
+				["name"] = "Приток силы рун",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
+			},
+			[2.11] = {
+				["name"] = "Могильный холод",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostShock",
+			},
+			[2.07] = {
+				["name"] = "Ледяные когти",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_IcyTalons",
+			},
+			[1.18] = {
+				["name"] = "Сила поганища",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_IntensifyRage",
+			},
+			[3.09] = {
+				["name"] = "Некроз",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Shortblade_60",
+			},
+			[1.06] = {
+				["name"] = "Специализация на двуручном оружии",
+				["icon"] = "Interface\\Icons\\INV_Sword_68",
+			},
+			[3.11] = {
+				["name"] = "На коне бледном",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_SummonDeathCharger",
+			},
+			[2.22] = {
+				["name"] = "Угроза Тассариана",
+				["icon"] = "Interface\\Icons\\Ability_DualWieldSpecialization",
+			},
+			[2.09] = {
+				["name"] = "Вымораживание",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Hand_18",
+			},
+			[2.01] = {
+				["name"] = "Мертвящее ледяное прикосновение",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_IceTouch",
+			},
+			[2.05] = {
+				["name"] = "Черный лед",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
+			},
+			[3.13] = {
+				["name"] = "Ночь мертвецов",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_ArmyOfTheDead",
+			},
+			[1.2] = {
+				["name"] = "Истерия",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_BladedArmor",
+			},
+			[3.05] = {
+				["name"] = "Болезненность",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathAndDecay",
+			},
+			[3.17] = {
+				["name"] = "Осквернение",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Shadowfiend",
+			},
+			[2.04] = {
+				["name"] = "Ледяной рубеж",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ManaRecharge",
+			},
+			[2.26] = {
+				["name"] = "Ледяной удар",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_EmpowerRuneBlade2",
+			},
+			[3.3] = {
+				["name"] = "Ярость Ривендера",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Halberd14",
+			},
+			[2.03] = {
+				["name"] = "Крепость",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
+			},
+			[1.1] = {
+				["name"] = "Усиленный захват рун",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_RuneTap",
+			},
+			[1.14] = {
+				["name"] = "Ветеран Третьей войны",
+				["icon"] = "Interface\\Icons\\Spell_Misc_WarsongFocus",
+			},
+			[3.01] = {
+				["name"] = "Жестокие удары",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_PlagueStrike",
+			},
+			[1.22] = {
+				["name"] = "Усиленный удар смерти",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_Butcher2",
+			},
+			[1.13] = {
+				["name"] = "Кровавые удары",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_DeathStrike",
+			},
+			[3.18] = {
+				["name"] = "Подавление магии",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_AntiMagicShell",
+			},
+			[3.26] = {
+				["name"] = "Костяной щит",
+				["icon"] = "Interface\\Icons\\INV_Chest_Leather_13",
+			},
+			[2.28] = {
+				["name"] = "Ловчий тундры",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Tranquility",
+			},
+			[1.15] = {
+				["name"] = "Кровавая метка",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_RapidKilling",
+			},
+			[2.24] = {
+				["name"] = "Несокрушимая броня",
+				["icon"] = "Interface\\Icons\\INV_Armor_Helm_Plate_Naxxramas_RaidWarrior_C_01",
+			},
+			[1.12] = {
+				["name"] = "Вендетта",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_Vendetta",
+			},
+			[1.08] = {
+				["name"] = "Мрачная решимость",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_DarkConviction",
+			},
+			[1.05] = {
+				["name"] = "Запах крови",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_BloodyEye",
+			},
+			[3.27] = {
+				["name"] = "Бродячая чума",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CallofBone",
+			},
+			[1.16] = {
+				["name"] = "Пожинание",
+				["icon"] = "interface\\icons\\ability_deathknight_blood_harvest",
+			},
+			[3.22] = {
+				["name"] = "Зона антимагии",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_AntiMagicZone",
+			},
+			[3.14] = {
+				["name"] = "Нечестивая порча",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
+			},
+			[2.18] = {
+				["name"] = "Иней",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FreezingBreath",
+			},
+			[1.17] = {
+				["name"] = "Кровавая месть",
+				["icon"] = "Interface\\Icons\\Ability_BackStab",
+			},
+			[1.02] = {
+				["name"] = "Пагуба",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_Subversion",
+			},
+			[3.19] = {
+				["name"] = "Жатва",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadeTrueSight",
+			},
+			[3.21] = {
+				["name"] = "Отчаяние",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
+			},
+			[2.14] = {
+				["name"] = "Ледниковое разложение",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RemoveDisease",
+			},
+			[3.1] = {
+				["name"] = "Взрыв трупа",
+				["icon"] = "Interface\\Icons\\Ability_Creature_Disease_02",
+			},
+			[3.31] = {
+				["name"] = "Призыв горгульи",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Bat",
+			},
 		},
 	},
 	["frame"] = {
@@ -1689,9 +2045,11 @@ WeakAurasSaved = {
 	},
 	["tempIconCache"] = {
 		["Теневой транс"] = "Interface\\Icons\\Spell_Shadow_Twilight",
-		["Обратный поток"] = "Interface\\Icons\\Ability_Warlock_Backdraft",
 		["Доспех Скверны"] = "Interface\\Icons\\Spell_Shadow_FelArmour",
 		["Демонический доспех"] = "Interface\\Icons\\Spell_Shadow_RagingScream",
+		["Обратный поток"] = "Interface\\Icons\\Ability_Warlock_Backdraft",
+		["Ответный удар"] = "Interface\\Icons\\Spell_Fire_PlayingWithFire",
+		["Искусство войны"] = "Interface\\Icons\\Ability_Paladin_ArtofWar",
 	},
 	["displays"] = {
 		["Теневой транс"] = {
@@ -1948,7 +2306,7 @@ WeakAurasSaved = {
 			["untrigger"] = {
 			},
 		},
-		["New"] = {
+		["Ответный удар"] = {
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1996,7 +2354,7 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "New",
+			["id"] = "Ответный удар",
 			["desaturate"] = false,
 			["frameStrata"] = 1,
 			["width"] = 150,
@@ -2004,6 +2362,84 @@ WeakAurasSaved = {
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
 			["anchorPoint"] = "CENTER",
+			["height"] = 150,
+			["rotate"] = true,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["untrigger"] = {
+			},
+		},
+		["Искусство войны"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.75, -- [4]
+			},
+			["mirror"] = false,
+			["yOffset"] = 0,
+			["regionType"] = "texture",
+			["blendMode"] = "ADD",
+			["xOffset"] = -80,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\SpellActivationOverlays\\Art_of_War",
+			["id"] = "Искусство войны",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Искусство войны", -- [1]
+				},
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["additional_triggers"] = {
+			},
+			["discrete_rotation"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 150,
+			["rotation"] = 0,
+			["anchorPoint"] = "CENTER",
+			["numTriggers"] = 1,
+			["desaturate"] = false,
 			["height"] = 150,
 			["rotate"] = true,
 			["load"] = {

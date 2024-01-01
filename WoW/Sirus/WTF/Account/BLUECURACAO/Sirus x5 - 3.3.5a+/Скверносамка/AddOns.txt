@@ -33,3 +33,5 @@ WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
 WeakAurasTutorials: enabled
 Quartz: enabled
+Blizzard_TokenUI: disabled
+LibBabble-Class-3.0: enabled

@@ -1,3 +1,24 @@
+MACRO 16777219 "." INV_Misc_QuestionMark
+/use [mod:shift]Молот гнева
+/use [mod: alt, @party1][nomod]Длань свободы
+END
+MACRO 16777218 "." INV_Misc_QuestionMark
+/use [mod: shift, @mouseover, harm][mod: shift] Длань возмездия
+/use [mod: alt, @party1][nomod]Очищение
+END
+MACRO 16777221 "Alt" INV_Misc_QuestionMark
+/use [@party1] Вспышка Света
+END
+MACRO 16777223 "LF" INV_Misc_QuestionMark
+/4 Оня 10 235+ 1а на Пала 
+END
 MACRO 16777217 "Taunt" INV_Misc_QuestionMark
 /castsequence reset=6 Длань возмездия, Праведная защита
+END
+MACRO 16777222 "Покояние / Щит" INV_Misc_QuestionMark
+/use [spec:1, mod: shift, @focus][spec:1, @mouseover, harm][spec:1] Щит мстителя
+/use [spec:2, mod: shift, @focus][spec:2, @mouseover, harm][] Покаяние
+END
+MACRO 16777220 "база" INV_Misc_QuestionMark
+/use [mod: alt, @party1][mod: shift, @target][nomod, @player] Вспышка Света
 END

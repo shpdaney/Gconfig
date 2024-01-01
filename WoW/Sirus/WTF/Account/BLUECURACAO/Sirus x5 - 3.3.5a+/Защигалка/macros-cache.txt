@@ -99,13 +99,13 @@ MACRO 16777244 "." INV_Misc_QuestionMark
 /stopcasting
 /cast [mod: shift, @focus] [@mouseover, harm][] Чарокрад
 END
+MACRO 16777245 "м" Ability_Mage_LivingBomb
+#showtooltip
+/cast [mod: shift, @focus] [@mouseover, harm][] Живая бомба
+END
 MACRO 16777246 "м" INV_Misc_QuestionMark
 #showtooltip Возгорание
 /cast [mod: shift] Возгорание
 /cast [mod: alt] !Выстрел
 /cast Огненная глыба
-END
-MACRO 16777245 "м" Ability_Mage_LivingBomb
-#showtooltip
-/cast [mod: shift, @focus] [@mouseover, harm][] Живая бомба
 END
