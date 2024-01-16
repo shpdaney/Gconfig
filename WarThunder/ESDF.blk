@@ -6,22 +6,15 @@ controls{
   }
 
   hotkeys{
-    ID_AAM{
-      mouseButton:i=4
-    }
-
+    ID_AAM{}
     ID_AAM_HELICOPTER{
       mouseButton:i=4
     }
 
-    ID_AGM{
-      mouseButton:i=4
-    }
-
-    ID_AGM_LOCK{}
+    ID_AGM{}
     ID_AGM_LOCK{
-      keyboardKey:i=42
-      mouseButton:i=4
+      keyboardKey:i=56
+      mouseButton:i=1
     }
 
     ID_AGM_LOCK_HELICOPTER{
@@ -96,7 +89,7 @@ controls{
     }
 
     ID_FIRE_SECONDARY{
-      mouseButton:i=4
+      mouseButton:i=1
     }
 
     ID_FIRE_SECONDARY_HELICOPTER{
@@ -121,15 +114,8 @@ controls{
       keyboardKey:i=35
     }
 
-    ID_GUIDED_BOMBS{
-      mouseButton:i=4
-    }
-
-    ID_GUIDED_BOMBS_LOCK{
-      keyboardKey:i=42
-      mouseButton:i=4
-    }
-
+    ID_GUIDED_BOMBS{}
+    ID_GUIDED_BOMBS_LOCK{}
     ID_HIDE_HUD{}
     ID_IGNITE_BOOSTERS{
       keyboardKey:i=56
@@ -141,7 +127,7 @@ controls{
     }
 
     ID_LOCK_TARGETING_AT_POINT{
-      mouseButton:i=3
+      mouseButton:i=2
     }
 
     ID_LOCK_TARGETING_AT_POINT_HELICOPTER{}
@@ -260,10 +246,6 @@ controls{
 
     ID_TARGETING_HOLD_GM{}
     ID_TARGET_CAMERA{}
-    ID_TARGET_CAMERA{
-      mouseButton:i=1
-    }
-
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER{
       keyboardKey:i=45
     }
@@ -274,6 +256,7 @@ controls{
     }
 
     ID_TOGGLE_LASER_DESIGNATOR{
+      keyboardKey:i=56
       keyboardKey:i=45
     }
 
@@ -302,6 +285,12 @@ controls{
       keyboardKey:i=19
     }
 
+    ID_UNLOCK_TARGETING{}
+    ID_UNLOCK_TARGETING_AT_POINT{
+      keyboardKey:i=56
+      mouseButton:i=2
+    }
+
     ID_VOICE_MESSAGE_1{
       keyboardKey:i=79
     }
@@ -310,10 +299,9 @@ controls{
       keyboardKey:i=2
     }
 
-    ID_WEAPON_LOCK{}
     ID_WEAPON_LOCK{
-      keyboardKey:i=42
-      mouseButton:i=4
+      keyboardKey:i=56
+      mouseButton:i=1
     }
 
     ID_WEAPON_LOCK_HELICOPTER{
@@ -349,6 +337,7 @@ controls{
       keyboardKey:i=32
     }
 
+    head_pos_y{}
     helicopter_climb_rangeMax{
       keyboardKey:i=18
     }
@@ -565,7 +554,7 @@ settings{
   helicopterMouseAileronAileronFactor:r=1
   mouseAileronRudderFactor:r=0.5
   helicopterMouseAileronRudderFactor:r=0.5
-  mouseJoystickSquare:b=no
+  mouseJoystickSquare:b=yes
   helicopterMouseJoystickSquare:b=no
   mouseJoyMode:i=0
   helicopterMouseJoyMode:i=0
