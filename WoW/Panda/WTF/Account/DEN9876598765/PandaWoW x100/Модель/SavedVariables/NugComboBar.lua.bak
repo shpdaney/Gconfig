@@ -1,0 +1,21 @@
+
+NugComboBarDB_Character = {
+	["specspec"] = {
+		true, -- [1]
+		true, -- [2]
+	},
+	["specdb"] = {
+		{
+			["point"] = "BOTTOM",
+			["anchorpoint"] = "TOP",
+			["apoint"] = "BOTTOM",
+			["x"] = -126.0000915527344,
+			["y"] = 231.0000305175781,
+			["preset3d"] = "glow_funnelPurple",
+		}, -- [1]
+		{
+			["disabled"] = true,
+		}, -- [2]
+	},
+	["charspec"] = true,
+}

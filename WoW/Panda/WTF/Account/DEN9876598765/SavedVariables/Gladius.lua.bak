@@ -1,0 +1,18 @@
+
+Gladius2DB = {
+	["profileKeys"] = {
+		["Модель - PandaWoW x100"] = "Модель - PandaWoW x100",
+	},
+	["profiles"] = {
+		["Модель - PandaWoW x100"] = {
+			["tagsVersion"] = 2,
+			["x"] = {
+				["arena1"] = 925.8672099193063,
+			},
+			["auraVersion"] = 1,
+			["y"] = {
+				["arena1"] = 509.1555678844452,
+			},
+		},
+	},
+}

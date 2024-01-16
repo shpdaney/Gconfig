@@ -1,0 +1,83 @@
+VER 3 0100000000000002 "." "INV_MISC_QUESTIONMARK"
+/use [form:1] Ярость Маннорота
+/use [form:1] Жар преисподней(Метаморфоза)
+/use [noform] Адское пламя
+END
+VER 3 0100000000000006 "." "INV_MISC_QUESTIONMARK"
+/use 10
+/use [mod: shift, @focus][@mouseover, harm][] Лик тлена
+END
+VER 3 0100000000000004 "." "INV_MISC_QUESTIONMARK"
+/use Черная душа
+/use 10
+/use Стая бесов(Символ)
+END
+VER 3 010000000000000D "." "INV_MISC_QUESTIONMARK"
+/use [nomod] 14
+/use [mod:alt] Воля Отрекшихся(Расовая)
+END
+VER 3 010000000000000E "." "INV_MISC_QUESTIONMARK"
+/use [@focus, nodead, harm, exist][@mouseover, nodead, harm] Хаос
+END
+VER 3 0100000000000009 "AllPets" "INV_MISC_QUESTIONMARK"
+/use [mod: shift, @focus][] Метание топора
+/use [mod: shift, @focus][] Оптический удар
+/use [mod: shift, @focus][] Запрет чар
+/use [mod: shift, @focus][] Очарование
+/use [mod: shift, @focus][] Cоблазн
+/use [mod: shift, @focus][] Обезоруживание
+END
+VER 3 010000000000000F "Fear" "INV_MISC_QUESTIONMARK"
+/use [mod: shift, @focus][@mouseover, harm][] Страх
+END
+VER 3 0100000000000005 "HS" "INV_MISC_QUESTIONMARK"
+#showtooltip Камень здоровья
+/use [nomod] Темное восстановление
+/use [nomod] Жертвенный договор
+/use [nomod] Твердая решимость
+/use [nomod] Камень здоровья
+/use [mod:shift] Создание камня здоровья
+END
+VER 3 0100000000000013 "ms" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, nodead, harm][] страх
+END
+VER 3 0100000000000007 "Pet" "INV_MISC_QUESTIONMARK"
+/use [mod: shift, @focus][] Преследование
+/use [mod: shift, @focus][] Метание топора
+/use [mod: shift, @focus][] Очарование
+/use [mod: shift, @focus][] Cоблазн
+/click [mod:shift] BT4Button101
+/click [] BT4Button102
+END
+VER 3 0100000000000012 "pet.solo" "INV_MISC_QUESTIONMARK"
+/use Бегство(Особая способность)
+/use Прижигание ран хозяина(Особая способность)
+/use [nomod, @player] Обжигающая магия(Особая способность)
+/use [mod:alt, @party1] Обжигающая магия(Особая способность)
+END
+VER 3 010000000000000B "PetFocus" "INV_MISC_QUESTIONMARK"
+/use [@focus] Приказание демону
+END
+VER 3 010000000000000A "PetTarget" "INV_MISC_QUESTIONMARK"
+/use Приказание демону
+END
+VER 3 0100000000000011 "Short" "INV_MISC_QUESTIONMARK"
+/use [spec:1, mod:alt] Агония
+/use [spec:1, nomod] Порча
+/use [spec:2, mod:alt] Ожог Тьмы
+/use [spec:2, nomod] Поджигание
+END
+VER 3 010000000000000C "Swap" "INV_MISC_QUESTIONMARK"
+/use Горящая душа
+/use Обмен душ
+END
+VER 3 0100000000000010 "T2" "INV_MISC_QUESTIONMARK"
+/use [talant:2/1] Дыхание демона
+/use [mod: shift, @focus][@mouseover, harm][talant:2/2] Лик тлена
+/use [talant:2/3] Неистовство Тьмы
+END
+VER 3 0100000000000001 "ТП" "INV_MISC_QUESTIONMARK"
+/use [mod:alt] Демонические врата
+/use [mod:shift] Демонический круг: создание
+/use [nomod] Демонический круг: телепортация
+END

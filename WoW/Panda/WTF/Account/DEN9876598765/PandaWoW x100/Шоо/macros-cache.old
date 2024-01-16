@@ -1,0 +1,15 @@
+VER 3 0100000000000002 "." "INV_MISC_QUESTIONMARK"
+/use Отвар тигриной силы
+/use Неистовые кулаки
+END
+VER 3 0100000000000003 "." "INV_MISC_QUESTIONMARK"
+/castsequence  Отвар проворства, Медальон жестокости жуткого гладиатора
+END
+VER 3 0100000000000001 "." "INV_MISC_QUESTIONMARK"
+/use [mod:shift] Вывести из строя
+/use [mod:alt, @party1] Тигриное рвение
+/use [nomod, @player] Тигриное рвение
+END
+VER 3 0100000000000005 "поклон" "INV_MISC_QUESTIONMARK"
+/поклон
+END

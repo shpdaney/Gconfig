@@ -1,0 +1,23 @@
+
+OneRing_Config = {
+	["ProfileStorage"] = {
+		["default"] = {
+			["Bindings"] = {
+				["WorldMarkers"] = false,
+				["WarlockDemons"] = "CTRL-D",
+				["OPieAutoQuest"] = "CTRL-Q",
+				["OPieTracking"] = "CTRL-F",
+			},
+		},
+	},
+	["PersistentStorage"] = {
+		["RingKeeper"] = {
+			["OPieFlagStore"] = {
+				["FlushedDefaultColors"] = true,
+			},
+		},
+	},
+	["CharProfiles"] = {
+		["LOGON-PandaWoW x100-Модель"] = "default",
+	},
+}

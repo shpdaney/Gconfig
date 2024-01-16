@@ -1,0 +1,46 @@
+VER 3 0100000000000007 "." "INV_MISC_QUESTIONMARK"
+/закл Зеркальное изображение
+/закл Стылая кровь
+END
+VER 3 0100000000000005 "." "INV_MISC_QUESTIONMARK"
+#showtooltip Ледяная стрела
+/закл Атаковать(Управление питомцем/прислужником)
+/cast [nomod] Ледяная стрела
+END
+VER 3 0100000000000002 "." "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod, pet] Холод
+/cast [nomod, nopet] Призыв элементаля воды
+/закл Следовать(Управление питомцем/прислужником)
+END
+VER 3 0100000000000003 "." "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Огненная глыба
+/cast [mod:shift] Величие разума
+/cast [mod:shift] Огненная глыба
+END
+VER 3 0100000000000006 "." "INV_MISC_QUESTIONMARK"
+#showtooltip Ледяная хватка
+/stopcasting
+/закл [nomod] Величие разума
+/закл [nomod] Ледяная хватка
+/закл [mod:shift]Глубокая заморозка
+END
+VER 3 0100000000000008 "." "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/stopcasting
+/закл [nomod] Пламенный взрыв
+/закл [mod:shift] Возгорание
+END
+VER 3 0100000000000001 "." "INV_MISC_QUESTIONMARK"
+#showtooltip Огненная глыба
+/stopcasting
+/закл Величие разума
+/закл Огненная глыба
+END
+VER 3 0100000000000004 "/" "INV_MISC_QUESTIONMARK"
+#showtooltir
+/cast [nomod] Стрела ледяного огня
+/cast [mod:shift] Величие разума
+/cast [mod:shift] Стрела ледяного огня
+END

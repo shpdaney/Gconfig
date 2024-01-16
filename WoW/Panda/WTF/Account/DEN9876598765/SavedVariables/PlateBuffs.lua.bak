@@ -1,0 +1,11 @@
+
+PB_DB = {
+	["profileKeys"] = {
+		["Модель - PandaWoW x100"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["showTotems"] = true,
+		},
+	},
+}

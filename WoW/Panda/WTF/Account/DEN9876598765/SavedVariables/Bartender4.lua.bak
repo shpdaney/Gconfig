@@ -1,0 +1,120 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Скверносамка - PandaWoW Fun"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+								["y"] = -227.4999237060547,
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+								["y"] = -189.4999084472656,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+								["y"] = -151.4999084472656,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+								["y"] = -113.4999084472656,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+								["y"] = -75.4998779296875,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+								["y"] = -37.49990844726563,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+		},
+		["XPBar"] = {
+		},
+		["BlizzardArt"] = {
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Скверносамка - PandaWoW Fun"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+						["y"] = 1.50006103515625,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Скверносамка - PandaWoW Fun"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.5,
+						["point"] = "CENTER",
+						["y"] = -14.99996185302734,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Скверносамка - PandaWoW Fun"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -163.5,
+						["point"] = "CENTER",
+						["y"] = 89.5001220703125,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Скверносамка - PandaWoW Fun"] = "Скверносамка - PandaWoW Fun",
+	},
+	["profiles"] = {
+		["Скверносамка - PandaWoW Fun"] = {
+		},
+	},
+}

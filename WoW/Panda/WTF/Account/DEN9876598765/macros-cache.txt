@@ -1,0 +1,69 @@
+VER 3 000000000000002B "#0mArenaSaerch" "INV_MISC_QUESTIONMARK"
+/targetenemyplayer [@arena2, noexists]
+/stopmacro [@arena2, noexists]
+/click [@focus, noexists] BT4Button98; click [@target, noexists] BT4Button99; click [] BT4Button100
+END
+VER 3 000000000000002C "#1mFocus" "INV_MISC_QUESTIONMARK"
+/focus [@target]
+/target [@arena1]
+/target [@arena2]
+/target [@focus]
+/targetlasttarget
+/focus [@target]
+/targetlasttarget
+END
+VER 3 000000000000002D "#2mTarget" "INV_MISC_QUESTIONMARK"
+/target [@focus]
+/target [@arena1]
+/target [@arena2]
+/target [@focus]
+/targetlasttarget
+END
+VER 3 000000000000002E "#3mSwitchTF" "INV_MISC_QUESTIONMARK"
+/target [@focus]
+/targetlasttarget
+/focus
+/targetlasttarget
+END
+VER 3 0000000000000023 "#glad" "INV_MISC_QUESTIONMARK"
+/gladius test
+END
+VER 3 0000000000000024 "#suf" "INV_MISC_QUESTIONMARK"
+/suf
+END
+VER 3 0000000000000027 "." "INV_MISC_QUESTIONMARK"
+/use 10
+/use [spec:1] Блуждающий дух
+/use [spec:2] Стрела хаоса
+END
+VER 3 0000000000000021 "/PetFollow" "INV_MISC_QUESTIONMARK"
+/petfollow
+/use [@player] Узы Тьмы
+/use Рыжий ветрокрыл
+END
+VER 3 000000000000002A "Focus" "Ability_Hunter_SniperShot"
+/focus
+END
+VER 3 0000000000000029 "LFA" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/5 Алок ищу 2с на кап 
+END
+VER 3 0000000000000020 "PetAttack" "Ability_GhoulFrenzy"
+/petattack
+END
+VER 3 000000000000001B "S" "SPELL_NATURE_REGENERATE"
+#showtooltir
+/cast Быстрая стрельба
+/castsequence reset=180 Берсерк(Расовая), Звериный натиск
+/use Укус гну-синя
+/закл Раж(Свирепость)
+END
+VER 3 0000000000000025 "swich form demo" "INV_MISC_QUESTIONMARK"
+/castsequence !Мрачный апофеоз, !Метаморфоза, 
+END
+VER 3 0000000000000026 "test" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000000012 "комбинацыя" "INV_MISC_QUESTIONMARK"
+#showtooltir
+/cast [nomod,harm,exists] Чарокрад; [dead,nomod] Каннибализм(Расовая);[nomod]Снятие проклятия
+/cast [mod:shift] Массовое рассеивание
+END

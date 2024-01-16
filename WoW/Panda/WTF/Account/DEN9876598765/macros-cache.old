@@ -1,0 +1,69 @@
+VER 3 0000000000000016 "." "ACHIEVEMENT_GUILD_DOCTORISIN"
+/run if (not scm) then scm = SendChatMessage; end; function SendChatMessage(msg, type, lang, chan) scm(msg, type, lang, chan); end;
+END
+VER 3 0000000000000017 "." "INV_CHEST_CHAIN_06"
+"Light Green" 
+/run if (not scm) then scm = SendChatMessage; end; function SendChatMessage(msg, type, lang, chan) scm("\124cff00ff00\124Hitem: 19:0:0:0:0:0:0:0\124h"..msg.."\124h\124r", type, lang, chan); end;
+END
+VER 3 000000000000000B "." "INV_MISC_QUESTIONMARK"
+#showtooltir
+/cast [nomod] Встречный выстрел
+/cast [mod:shift] Дезориентирующий выстрел
+END
+VER 3 0000000000000015 "." "ABILITY_DUALWIELD"
+/use Жетон завоевания гордого гладиатора
+END
+VER 3 0000000000000001 "F2" "INV_MISC_QUESTIONMARK"
+ w
+END
+VER 3 000000000000001B "S" "SPELL_NATURE_REGENERATE"
+#showtooltir
+/cast Быстрая стрельба
+/castsequence reset=180 Берсерк(Расовая), Звериный натиск
+/use Укус гну-синя
+/закл Раж(Свирепость)
+END
+VER 3 000000000000001E "АА" "ABILITY_MARKSMANSHIP"
+/сказать АХАХХАХАХАХАХАХАХА
+END
+VER 3 0000000000000004 "Атака" "INV_MISC_QUESTIONMARK"
+#showtooltir
+/cast Команда "Взять!"
+/cast Порыв
+/cast Рык(Базовая способность)
+/cast Кокон(Особая способность)
+/cast [mod:shift] Атаковать(Управление питомцем/прислужником)
+END
+VER 3 0000000000000018 "Игра" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+Проверь Свою удачу! Люди скидывают голду, а победитель забирает все. Победитель отпеделяется командой Roll. 
+Кто хочет поиграть пишите в лс. голду скидывать мне.
+Проверь свою удачу и выйграй Золото. Читайте чатик
+END
+VER 3 0000000000000019 "Правил" "ACHIEVEMENT_GUILDPERK_MRPOPULARITY"
+Внимание: Правила! Вы мне скидуете голду после фразы ГОТОВО вы пишите /roll и у ково больше тот и побеждает
+END
+VER 3 000000000000001C "а" "SPELL_MISC_CONJUREMANAJEWEL"
+/use Плетеные рукавицы гордого гладиатора
+/use Жетон завоевания гордого гладиатора
+END
+VER 3 0000000000000012 "комбинацыя" "INV_MISC_QUESTIONMARK"
+#showtooltir
+/cast [nomod,harm,exists] Чарокрад; [dead,nomod] Каннибализм(Расовая);[nomod]Снятие проклятия
+/cast [mod:shift] Массовое рассеивание
+END
+VER 3 0000000000000013 "п" "INV_KNIFE_1H_PVPPANDARIAS2_C_02"
+/target focus
+/cast Дезориентирующий выстрел
+/targetlasttarget
+END
+VER 3 000000000000001D "ыыы" "INV_CHEST_CHAIN_06"
+/закл Сдерживание
+/use Камень здоровья
+END
+VER 3 000000000000001A "ь" "INV_MISC_QUESTIONMARK"
+/закл Быстрая стрельба
+/закл Звериный натиск
+/use Укус гну-синя
+/закл Раж(Свирепость)
+/крикнуть FOR THE HOOOOORD
+END

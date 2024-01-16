@@ -1,0 +1,15 @@
+
+NugComboBarDB_Global = {
+	["point"] = "BOTTOM",
+	["scale"] = 1.19,
+	["anchorpoint"] = "TOP",
+	["showAlways"] = true,
+	["apoint"] = "BOTTOM",
+	["adjustY"] = 2.1,
+	["y"] = 235.0001831054688,
+	["preset3d"] = "glow_funnelPurple",
+	["x"] = -125.0002136230469,
+	["adjustX"] = 2.05,
+	["charspec"] = {
+	},
+}

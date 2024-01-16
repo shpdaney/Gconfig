@@ -1,0 +1,7 @@
+VER 3 0100000000000002 "." "INV_MISC_QUESTIONMARK"
+#showtooltir
+END
+VER 3 0100000000000001 "а" "SPELL_SHADOW_TELEPORT"
+/cast Зелье Нефритовой Змеи
+/cast Жетон господства деспотичного гладиатора
+END

@@ -82,3 +82,14 @@
 /run MyItem1= select(2, GetItemInfo("Поющий хрустальнокованный топор"));
 /run MyItem2 = select(2, GetItemInfo("Поводья Фаянсового боевого скорпиона"));
 /run SendChatMessage("Продам "..MyItem1..MyItem2.." ","channel",nil,1)
+
+
+PandaWoW 5.4.8
+
+#showtooltip Приказание демону
+/use [mod: shift, @focus][] Преследование
+/use [mod: shift, @focus][] Метание топора
+/use [mod: shift, @focus][] Очарование
+/use [mod: shift, @focus][] Cоблазн
+/click [mod:shift] BT4Button97   ---->  /use [@focus] Приказание демону
+/click [] BT4Button98            ---->  /use Приказание демону

@@ -1,0 +1,21 @@
+VER 3 0100000000000002 "." "INV_MISC_QUESTIONMARK"
+/use Отвар тигриной силы
+/use 13
+/use Неистовые кулаки
+END
+VER 3 0100000000000003 "." "INV_MISC_QUESTIONMARK"
+/use [mod:shift] Вывести из строя
+/use [mod:alt] 14
+/use [nomod] Отвар проворства
+END
+VER 3 0100000000000006 "." "INV_MISC_QUESTIONMARK"
+/castsequence reset=14 Устранение вреда, Дзуки, Дзуки, Дзуки, Дзуки
+END
+VER 3 0100000000000001 "." "INV_MISC_QUESTIONMARK"
+/use [mod:shift] Вывести из строя
+/use [mod:alt, @party1] Тигриное рвение
+/use [nomod, @player] Тигриное рвение
+END
+VER 3 0100000000000005 "поклон" "INV_MISC_QUESTIONMARK"
+/поклон
+END

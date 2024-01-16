@@ -1,0 +1,13 @@
+Shadowed:
+	- Typo
+	- Added more debug code
+	- Move boss auras back up
+	- Bump player auras back to the top
+	- Added debug flag to record aruas to narrow down the issue
+	- Fixed leaked global
+	- Fixed aura indicators not being updated on config change until UI reload
+	- Fixed aura indicators curable filter not working
+	- Redid aura categorization priority to fix display bugs
+	- Fixed ToT child units not working
+	- Fixed logic for determining curable auras
+	- Fixed stealable/removable auras not being scaled

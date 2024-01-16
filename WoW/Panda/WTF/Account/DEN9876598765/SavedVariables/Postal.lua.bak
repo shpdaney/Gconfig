@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Шоо|PandaWoW x100|Horde|90|MONK", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Шоо - PandaWoW x100"] = "Шоо - PandaWoW x100",
+	},
+	["profiles"] = {
+		["Шоо - PandaWoW x100"] = {
+		},
+	},
+}
