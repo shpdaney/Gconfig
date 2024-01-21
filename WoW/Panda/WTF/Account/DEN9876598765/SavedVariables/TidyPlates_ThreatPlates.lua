@@ -2,6 +2,7 @@
 ThreatPlatesDB = {
 	["char"] = {
 		["Шоо - PandaWoW x100"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					["name"] = "Танцующий с ветром",
@@ -12,10 +13,8 @@ ThreatPlatesDB = {
 					["role"] = "HEALER",
 				}, -- [2]
 			},
-			["welcome"] = true,
 		},
 		["Fewfqf - PandaWoW Fun"] = {
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					["name"] = "Unknown",
@@ -26,8 +25,10 @@ ThreatPlatesDB = {
 					["role"] = "DAMAGER",
 				}, -- [2]
 			},
+			["welcome"] = true,
 		},
 		["Модель - PandaWoW x100 [RU]"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					["name"] = "Колдовство",
@@ -38,9 +39,9 @@ ThreatPlatesDB = {
 					["role"] = "DAMAGER",
 				}, -- [2]
 			},
-			["welcome"] = true,
 		},
 		["Монрк - PandaWoW x100"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					["name"] = "Танцующий с ветром",
@@ -51,23 +52,8 @@ ThreatPlatesDB = {
 					["role"] = "DAMAGER",
 				}, -- [2]
 			},
-			["welcome"] = true,
-		},
-		["Модель - PandaWoW x100"] = {
-			["welcome"] = true,
-			["specInfo"] = {
-				{
-					["name"] = "Колдовство",
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["name"] = "Разрушение",
-					["role"] = "DAMAGER",
-				}, -- [2]
-			},
 		},
 		["Жуеобыш - PandaWoW x100"] = {
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					["name"] = "Тайная магия",
@@ -78,31 +64,45 @@ ThreatPlatesDB = {
 					["role"] = "DAMAGER",
 				}, -- [2]
 			},
+			["welcome"] = true,
 		},
+		["Модель - PandaWoW x100"] = {
+			["specInfo"] = {
+				{
+					["name"] = "Колдовство",
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["name"] = "Разрушение",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["welcome"] = true,
+		},
+	},
+	["global"] = {
+		["version"] = "7.010-Alpha",
 	},
 	["profileKeys"] = {
 		["Шоо - PandaWoW x100"] = "Default",
 		["Fewfqf - PandaWoW Fun"] = "Default",
 		["Модель - PandaWoW x100 [RU]"] = "Default",
 		["Монрк - PandaWoW x100"] = "Default",
-		["Модель - PandaWoW x100"] = "Default",
 		["Жуеобыш - PandaWoW x100"] = "Default",
-	},
-	["global"] = {
-		["version"] = "7.010-Alpha",
+		["Модель - PandaWoW x100"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["nameplate"] = {
-				["toggle"] = {
-					["Totem"] = true,
-				},
 				["scale"] = {
 					["Normal"] = 0.9,
 					["Neutral"] = 0.8,
 					["Elite"] = 0.9,
-					["Tapped"] = 0.8,
 					["Boss"] = 0.9,
+					["Tapped"] = 0.8,
+				},
+				["toggle"] = {
+					["Totem"] = true,
 				},
 			},
 			["uniqueSettings"] = {

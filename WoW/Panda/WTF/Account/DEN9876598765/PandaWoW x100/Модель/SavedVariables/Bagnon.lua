@@ -5,15 +5,15 @@ BagnonFrameSettings = {
 			["y"] = 258,
 			["x"] = -154.9998779296875,
 		},
-		["voidstorage"] = {
-			["y"] = 336.0000610351563,
-			["point"] = "BOTTOMLEFT",
-			["dataBrokerObject"] = "Bartender4",
-		},
 		["guildbank"] = {
 			["y"] = 698.999755859375,
 			["x"] = 6.565175135619938e-005,
 			["point"] = "BOTTOMLEFT",
+		},
+		["voidstorage"] = {
+			["y"] = 336.0000610351563,
+			["point"] = "BOTTOMLEFT",
+			["dataBrokerObject"] = "Bartender4",
 		},
 		["bank"] = {
 			["point"] = "BOTTOMLEFT",

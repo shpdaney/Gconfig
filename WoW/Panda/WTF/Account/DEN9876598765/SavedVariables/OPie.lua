@@ -3,10 +3,10 @@ OneRing_Config = {
 	["ProfileStorage"] = {
 		["default"] = {
 			["Bindings"] = {
-				["OPieTracking"] = "CTRL-F",
+				["WorldMarkers"] = false,
 				["WarlockDemons"] = "SHIFT-BUTTON3",
 				["OPieAutoQuest"] = "CTRL-Q",
-				["WorldMarkers"] = false,
+				["OPieTracking"] = "CTRL-F",
 			},
 		},
 	},

@@ -50,6 +50,8 @@ END
 VER 3 0000000000000020 "PetAttack" "Ability_GhoulFrenzy"
 /petattack
 END
+VER 3 000000000000002F "PetStay" "INV_MISC_QUESTIONMARK"
+END
 VER 3 000000000000001B "S" "SPELL_NATURE_REGENERATE"
 #showtooltir
 /cast Быстрая стрельба

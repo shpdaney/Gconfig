@@ -21,6 +21,8 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -30,8 +32,6 @@ Quartz3DB = {
 					["texture"] = "Striped",
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -55,9 +55,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["Range"] = {
+		},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -66,11 +66,11 @@ Quartz3DB = {
 		["Шоо - PandaWoW x100"] = "Default",
 		["Монрк - PandaWoW x100"] = "Default",
 		["Модель - PandaWoW x100"] = "Default",
-		["Ауфф - PandaWoW Fun"] = "Default",
-		["Fewfqf - PandaWoW Fun"] = "Default",
 		["Скверносамка - PandaWoW Fun"] = "Default",
-		["Жуеобыш - PandaWoW x100"] = "Default",
+		["Fewfqf - PandaWoW Fun"] = "Default",
 		["Модель - PandaWoW x100 [RU]"] = "Default",
+		["Жуеобыш - PandaWoW x100"] = "Default",
+		["Ауфф - PandaWoW Fun"] = "Default",
 		["Тимурлан - PandaWoW Fun"] = "Default",
 	},
 	["profiles"] = {
